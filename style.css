@@ -2,22 +2,42 @@ body {
     font-family: "Raleway";
 }
 
+.padding-left-right {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .header_banner {
     width: 300px;
+}
+
+header {
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* schlagschatten */
+    align-items: end;
 }
 
 ul {
-    display: inline-block;
-
-}.topmenu {
     display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+.topmenu {
+    
 }
 
 .topmenu-img {
