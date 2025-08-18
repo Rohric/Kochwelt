@@ -1,0 +1,12 @@
+.new-arrivals{
+background-color: grey;
+img{
+    height: 44px;
+    width: 44px;
+}
+.figure{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+}
