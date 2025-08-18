@@ -15,33 +15,45 @@ nav {
 
 ul {
     display: inline-block;
-}.topmenu {
-    
 }
 
-.topmenu-img {
+.topmenu {}
 
-}
+.topmenu-img {}
 
-.topmenu-text {
+.topmenu-text {}
 
-}
+.button {}
 
-.button {
+.new-arrivals {
 
-}.new-arrivals{
-background-color: grey;
-img{
-    height: 44px;
-    width: 44px;
-}
-div{
+    background-color: #EFEFEF;
     display: flex;
-}
-.figure{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-}
+
+    img {
+        height: 140px;
+        width: 140px;
+    }
+
+    div {
+        display: flex;
+        gap: 160px;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    figcaption{
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    a{
+        text-decoration: none;
+    }
 
 }
