@@ -63,7 +63,12 @@ main {
     }
 
     h2 {
-        font-size: ;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 20px;
         font-weight: 500;
     }
 }
@@ -157,9 +162,13 @@ main {
         border-radius: 10px;
     }
 
-    .gray-bg {
+    tr:nth-child(even) {
         background-color: rgb(239 239 239);
     }
+
+    /* .gray-bg {
+        background-color: rgb(239 239 239);
+    } */
 }
 
 .preparation {
@@ -168,7 +177,16 @@ main {
     align-items: center;
 }
 
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 32px;
 
+    span {
+        font-size: 24px;
+        font-weight: 100;
+    }
+}
 
 
 
@@ -265,6 +283,8 @@ main {
 }
 
 footer {
+    margin-top: 80px;
+    background-color: rgb(64 59 59);
 
     figure {
         display: flex;
