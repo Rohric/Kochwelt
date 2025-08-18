@@ -55,6 +55,7 @@ li {
 
 .topmenu {
     display: flex;
+    justify-content: center;
 }
 
 .topmenu-img {
@@ -68,8 +69,12 @@ li {
     padding-left: 30px;
 }
 
+.topmenu-text h2 {
+    margin-top: 0px;
+}
+
 .button {
-    background-color: green;
+    background-color: rgb(0, 113, 0);
     text-decoration: none;
     color: white;
     padding: 10px 50px 10px 50px;
