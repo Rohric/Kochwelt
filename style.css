@@ -1,5 +1,6 @@
 body {
     font-family: "Raleway";
+    margin: 0;
 }
 
 .h2_main {
@@ -269,11 +270,11 @@ main {
 
 /* Footer */
 
-footer{
+/* footer{
     background-color: #3F3B3A;
     height: 220px;
     display: flex;
-}
+} */
 
 
 /* style Christian Rezept */
@@ -319,8 +320,10 @@ footer{
 /*  style Christian Rezept */
 
 footer {
-    margin-top: 80px;
+    margin-top: 120px;
     background-color: rgb(64 59 59);
+    height: 280px;
+    display: flex;
 
     figure {
         display: flex;
