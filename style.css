@@ -4,9 +4,13 @@ img{
     height: 44px;
     width: 44px;
 }
+div{
+    display: flex;
+}
 .figure{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 }
