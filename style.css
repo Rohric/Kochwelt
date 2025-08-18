@@ -189,6 +189,19 @@ main {
     border-radius: 8px;
 }
 
+.recipe-meta-display {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.recipe-meta-display img {
+    width: 16px;
+}
+
+/*  style Christian Rezept */
+
 footer{
 
     figure{display: flex;
