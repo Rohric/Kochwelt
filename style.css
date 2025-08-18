@@ -37,7 +37,7 @@ li a {
 
 
 .topmenu {
-    
+    display: flex;
 }
 
 .topmenu-img {
