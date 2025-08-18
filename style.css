@@ -7,8 +7,8 @@ body {
 }
 
 .padding-left-right {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header_banner {
@@ -52,6 +52,18 @@ li {
     border-bottom: solid rgb(0 128 0);
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.spinat-nudelauflauf_img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 .topmenu {
     display: flex;
