@@ -25,14 +25,27 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 li {
     text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-li a {
+.header_li_a {
+    color: black;
+    font-size: 22px;
     text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header_li_a:hover {
+    color: rgb(0 128 0);
+    border-bottom: solid rgb(0 128 0);
 }
 
 
