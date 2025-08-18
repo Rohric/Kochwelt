@@ -15,21 +15,35 @@ nav {
 
 ul {
     display: inline-block;
+
 }.topmenu {
-    
+    display: flex;
 }
 
 .topmenu-img {
-
+    width: 400px;
+    border-radius: 8px;
 }
 
 .topmenu-text {
-
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 .button {
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px 10px 50px;
 
-}.new-arrivals{
+}
+
+.mr-20 {
+    margin-top: 80px;
+}
+
+.new-arrivals{
 background-color: grey;
 img{
     height: 44px;
