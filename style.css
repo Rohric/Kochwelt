@@ -1,5 +1,6 @@
 body {
     font-family: "Raleway";
+    margin: 0;
 }
 
 .h2_main {
@@ -63,7 +64,12 @@ main {
     }
 
     h2 {
+        font-size: 26px;
+        font-weight: 500;
+    }
 
+    h3 {
+        font-size: 20px;
         font-weight: 500;
     }
 }
@@ -157,9 +163,13 @@ main {
         border-radius: 10px;
     }
 
-    .gray-bg {
+    tr:nth-child(even) {
         background-color: rgb(239 239 239);
     }
+
+    /* .gray-bg {
+        background-color: rgb(239 239 239);
+    } */
 }
 
 .preparation {
@@ -168,7 +178,16 @@ main {
     align-items: center;
 }
 
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 32px;
 
+    span {
+        font-size: 24px;
+        font-weight: 100;
+    }
+}
 
 
 
@@ -247,6 +266,16 @@ main {
 
     }
 }
+
+
+/* Footer */
+
+/* footer{
+    background-color: #3F3B3A;
+    height: 220px;
+    display: flex;
+} */
+
 
 /* style Christian Rezept */
 
@@ -330,6 +359,10 @@ tr:nth-child(odd) {
 /*  style Christian Rezept */
 
 footer {
+    margin-top: 120px;
+    background-color: rgb(64 59 59);
+    height: 280px;
+    display: flex;
 
     figure {
         display: flex;
