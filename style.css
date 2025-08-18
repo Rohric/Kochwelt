@@ -1,0 +1,18 @@
+body {
+    font-family: "Raleway";
+}
+
+.header_banner {
+    width: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* schlagschatten */
+}
+
+ul {
+    display: inline-block;
+}
