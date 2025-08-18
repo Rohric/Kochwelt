@@ -15,35 +15,21 @@ nav {
 
 ul {
     display: inline-block;
-
 }.topmenu {
-    display: flex;
+    
 }
 
 .topmenu-img {
-    width: 400px;
-    border-radius: 8px;
+
 }
 
 .topmenu-text {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
+
 }
 
 .button {
-    background-color: green;
-    text-decoration: none;
-    color: white;
-    padding: 10px 50px 10px 50px;
 
-}
-
-.mr-20 {
-    margin-top: 80px;
-}
-
-.new-arrivals{
+}.new-arrivals{
 background-color: grey;
 img{
     height: 44px;
@@ -51,11 +37,31 @@ img{
 }
 div{
     display: flex;
-}
-.figure{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-}
+
+    img {
+        height: 140px;
+        width: 140px;
+    }
+
+    div {
+        display: flex;
+        gap: 160px;
+    }
+
+    .figure {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    figcaption{
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    a{
+        text-decoration: none;
+    }
 
 }
