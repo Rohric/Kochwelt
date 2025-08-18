@@ -64,39 +64,39 @@ li a {
 
 
 .new-arrivals {
-background-color: grey;
-img{
-    height: 44px;
-    width: 44px;
-}
-
-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: grey;
+    text-align: center;
 
     img {
-        height: 140px;
-        width: 140px;
+        height: 44px;
+        width: 44px;
     }
 
     div {
         display: flex;
-        gap: 160px;
-    }
-
-    .figure {
-        display: flex;
         flex-direction: row;
         align-items: center;
-    }
-    figcaption{
-        font-weight: bold;
-        text-align: center;
-        
-    }
-    a{
-        text-decoration: none;
-    }
+        justify-content: space-around;
+      
 
-} }
+        img {
+            height: 140px;
+            width: 140px;
+        }
+        .figure {
+            display: flex;
+            flex-direction: row;
+        }
+
+        figcaption {
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+    }
+}
