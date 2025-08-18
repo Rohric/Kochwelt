@@ -56,6 +56,16 @@ main {
     display: flex;
     flex-direction: column;
 
+    p {
+        font-size: 18px;
+        font-weight: 100;
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: ;
+        font-weight: 500;
+    }
 }
 
 .spinat-nudelauflauf_img {
@@ -69,10 +79,10 @@ main {
     display: flex;
     gap: 15px;
     margin-top: 30px;
-    margin-bottom: 90px;
+    margin-bottom: 64px;
 }
 
-.craft-display_card {
+.detail_card {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -81,7 +91,9 @@ main {
     border-radius: 10px;
 
     span {
+        color: black;
         font-size: 18px;
+        font-weight: 100;
     }
 }
 
@@ -92,6 +104,68 @@ main {
 .creator-img {
     width: 80px;
     border-radius: 100%;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+
+    span {
+        font-size: 18px;
+        font-weight: 100;
+        margin-right: 16px;
+    }
+
+    .input-number {
+        width: 152px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        border-right: none;
+        border-radius: 5px 0 0 5px;
+        font-size: 16px;
+    }
+
+    button {
+        background-color: rgb(0 128 0);
+        color: white;
+        font-size: 18px;
+        border: none;
+        padding-top: 12px;
+        padding-right: 48px;
+        padding-bottom: 12px;
+        padding-left: 48px;
+    }
+}
+
+.recipe-table {
+    table {
+        margin-top: 16px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    tr {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    td {
+        padding: 20px 40px;
+        font-weight: 100;
+        border-radius: 10px;
+    }
+
+    .gray-bg {
+        background-color: rgb(239 239 239);
+    }
+}
+
+.preparation {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 
@@ -128,6 +202,7 @@ main {
 .mr-20 {
     margin-top: 80px;
 }
+
 /* section new_arrivals */
 .new-arrivals {
     margin-top: 120px;
@@ -202,11 +277,26 @@ main {
 
 /*  style Christian Rezept */
 
-footer{
+.recipe-meta-display {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
 
-    figure{display: flex;
-    align-items:center ;
-gap: 24px;}
+.recipe-meta-display img {
+    width: 16px;
+}
+
+/*  style Christian Rezept */
+
+footer {
+
+    figure {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
 
     img {
         height: 60px;
@@ -216,9 +306,18 @@ gap: 24px;}
 
 /* rezept Emil  */
 
+/* head article */
 .emil_recept_site {
     margin: 0px 64px;
 }
+
+.emil_recept_img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .emil_badge_info {
     display: flex;
     gap: 16px;
@@ -227,11 +326,11 @@ gap: 24px;}
 .emil_badge {
     display: flex;
     flex-direction: row;
-    gap: 6px;
-    background-color: #2831297a;
+    gap: 16px;
+    background-color: rgb(239 239 239);
     border-radius: 8px;
     font-size: 14px;
-    color: #000000;
+    color: rgb(0, 0, 0);
     padding: 8px;
 }
 
@@ -241,18 +340,78 @@ gap: 24px;}
 }
 
 
-.emil_recept_img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+/*  Ingriedients */
+
+.emil_hr_margin {
+    margin-top: 120px;
+    margin-bottom: 16px;
 }
 
-footer{
+.emil_input__person_button {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    margin: 0;
 
-    figure{display: flex;
-    align-items:center ;
-gap: 24px;}
+    span {margin-right: 8px;
+    }
+}
+
+.emil_input_persons {
+    width: 120px;
+    padding: 8px 52px;
+    border-right: none;
+    border: 1px solid;
+    margin: 0px;
+
+}
+
+.emil_button_green {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 8px 52px;
+    border: none;
+
+
+}
+
+.emil_ingredients_table {
+    margin-top: 10px;
+    margin-bottom: 32px;
+    width: 100%;
+
+
+}
+
+.emil_ingredient_list {
+    background-color: grey;
+    width: 100%;
+    padding-left: 16px;
+
+
+}
+
+.emil_ingredient_list_white {
+    background-color: white;
+
+}
+
+.emil_ingredient_border {
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+/* instructions */
+
+/* footer */
+.emil_recipe_footer {
+
+    figure {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
 
     img {
         height: 60px;
