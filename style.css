@@ -141,8 +141,8 @@ main {
     }
 
     td {
-         padding: 20px 40px;
-         font-weight: 100;
+        padding: 20px 40px;
+        font-weight: 100;
     }
 
     .gray-bg {
@@ -150,12 +150,13 @@ main {
     }
 
     td:first-child {
-    border-top-left-radius: 10px; 
-    border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
+
     td:last-child {
-    border-bottom-right-radius: 10px; 
-    border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
 }
@@ -314,54 +315,64 @@ footer {
 
 /*  Ingriedients */
 
-.emil_input__person_button{
+.emil_hr_margin {
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+
+.emil_input__person_button {
     display: flex;
     gap: 0px;
     align-items: center;
     margin: 0;
+
+    span {margin-right: 8px;
+    }
 }
 
-.emil_input_persons{
+.emil_input_persons {
     width: 120px;
-    padding: 7px 52px;
+    padding: 8px 52px;
     border-right: none;
     border: 1px solid;
     margin: 0px;
 
 }
 
-.emil_button_green{
+.emil_button_green {
     background-color: green;
     color: white;
+    font-size: 16px;
     padding: 8px 52px;
     border: none;
-    
+
+
 }
 
-.emil_ingredients_table{
-    margin-top: 0;
+.emil_ingredients_table {
+    margin-top: 10px;
     margin-bottom: 32px;
     width: 100%;
-    border-collapse: separate;
-    
- 
+
+
 }
 
-.emil_ingredient_list{
+.emil_ingredient_list {
     background-color: grey;
     width: 100%;
     padding-left: 16px;
-   
-    
-}
-.emil_ingredient_list_white{
-    background-color: white;
-    
+
+
 }
 
-.emil_ingredient_border{
+.emil_ingredient_list_white {
+    background-color: white;
+
+}
+
+.emil_ingredient_border {
     border-radius: 12px;
-    padding: 8px 12px;
+    padding: 12px 16px;
 }
 
 /* instructions */
