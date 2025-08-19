@@ -1,5 +1,7 @@
 /* Normalize*/
-h1, h2, h3{
+h1,
+h2,
+h3 {
     padding: 0;
     margin: 0;
 }
@@ -47,33 +49,38 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: end;
+
+    .nav-right {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        width: 100%;
+    }
+
+    .header_li_a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    }
+
+    li:hover {
+        .header_li_a {
+            color: rgb(0 128 0);
+        }
+    border-bottom: solid rgb(0 128 0);
+    }
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 30px;
-    padding: 0;
-    margin: 0;
 }
 
 li {
+    padding-bottom: 8px;
     text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.header_li_a {
-    color: black;
-    font-size: 22px;
-    text-decoration: none;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.header_li_a:hover {
-    color: rgb(0 128 0);
-    border-bottom: solid rgb(0 128 0);
+    border-bottom: solid white;
 }
 
 /* Wiederverwendbar */
@@ -89,6 +96,7 @@ li {
 .topmenu {
     display: flex;
     justify-content: center;
+    margin-top: 64px;
 }
 
 .topmenu-img {
@@ -129,9 +137,10 @@ li {
     background-color: #EFEFEF;
     text-align: center;
 
-    img {
-        height: 44px;
-        width: 44px;
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-weight: bold;
     }
 
     div {
@@ -139,11 +148,13 @@ li {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        padding-bottom: 32px;
 
 
         img {
-            height: 140px;
-            width: 140px;
+            height: 200px;
+            width: 200px;
+            border-radius: 20px;
         }
 
         .figure {
@@ -152,7 +163,7 @@ li {
         }
 
         figcaption {
-            font-weight: bold;
+            font-weight: 500;
             text-align: center;
             color: black;
             font-size: 16px;
@@ -167,8 +178,60 @@ li {
     }
 }
 
-.new-arrivals_h2 {
-    padding-top: 40px;
+/* Footer */
+
+footer {
+    margin-top: 120px;
+    background-color: rgb(64 59 59);
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    figure {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    img {
+        height: 60px;
+        width: 60px;
+    }
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+.creator{
+    justify-content: space-between;
+    gap: 16px;
+}
+
+
+/* section pfanne-wok */
+
+.pfanne-wok {
+    h2 {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .display {
+        display: flex;
+        gap: 16px;
+
+        img {
+            width: 200px;
+            height: 200px;
+            /* object-fit: cover; */
+            border-radius: 8px;
+        }
+    }
 }
 
 /* RezeptSeite */
@@ -208,7 +271,7 @@ li {
 
 hr {
     width: 100%;
-    color: rgb(239 239 239 0.1 );
+    color: rgb(239 239 239 0.1);
     margin-top: 72px;
     margin-bottom: 12px;
 }
@@ -298,36 +361,36 @@ tr:nth-child(odd) {
         font-size: 24px;
         font-weight: 100;
     }
-    
+
     img {
         height: 72px;
         border-radius: 50%;
     }
 }
 
+/* Contact-us */
 
-
-/* Footer */
-
-footer {
-    margin-top: 120px;
-    background-color: rgb(64 59 59);
-    height: 280px;
-    display: flex;
-
-    figure {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-    }
-
-    img {
-        height: 60px;
-        width: 60px;
-    }
+.contact-us{
+    background-image:url(./img/contact-us/Kochwelt\ -\ Contact\ us\ -\ background.png);
+    height: 100vh;
+    width: 100%;
+}
+.grandparents{
+    border: black;
+    border-width: 5px;
+    border: 5px;
+    border-bottom: #EFEFEF;
+}
+.grandma{
+    display:flex;
+    height: 320px;
+    width: 160px;
+}
+.grandpa{
+    display:flex;
+    height: 320px;
+    width: 160px;
 }
 
+
 /* @Media */
-
-
-
