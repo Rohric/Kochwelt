@@ -102,8 +102,14 @@ li {
     padding-left: 30px;
 }
 
-.topmenu-text h2 {
-    margin-top: 0px;
+.topmenu-text {
+    h2 {
+        margin-bottom: 26px;
+    }
+    
+    span {
+        font-weight: 350;
+    }
 }
 
 .button {
