@@ -48,15 +48,13 @@ li {
     padding-bottom: 16px;
 }
 
-hr {
-    color: ;
-}
+
 
 .header_li_a:hover {
     color: rgb(0 128 0);
     border-bottom: solid rgb(0 128 0);
 }
-
+/* Rezept nam */
 main {
     display: flex;
     flex-direction: column;

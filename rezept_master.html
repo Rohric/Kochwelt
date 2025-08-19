@@ -9,10 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Kochwelt</title>
+    <title>Master Rezept</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header class="padding-left-right">
         <nav>
             <a href="index.html">
@@ -20,7 +21,7 @@
             </a>
             <ul>
                 <li>
-                    <a class="header_li_a" href="index.html">Start</a>
+                    <a class="header_li_a" href="">Start</a>
                 </li>
                 <li>
                     <a class="header_li_a" href="">Rezept des Tages</a>
@@ -34,33 +35,36 @@
             </ul>
         </nav>
     </header>
-    <br>
-    <br>
+    <!-- head Article -->
     <main class="padding-left-right">
-        <h1>Gyros-Nudelauflauf in Metaxasoße</h1>
-        <img class="spinat-nudelauflauf_img" src="./img/spinat-nudelauflauf.jpg" alt="Spinat Nudelauflauf">
-        <div class="craft-display">
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
-                <span>15 Min.</span>
-            </div>
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/brain-solid.svg" alt="Schwierigkeitsstufe">
-                <span>simpel</span>
-            </div>
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/calendar-alt-regular.svg" alt="Erstellt am">
-                <span>28.09.2020</span>
-            </div>
-        </div>
-        <hr width="100%" style="color: rgb(0 0 0 / 0.1);">
-        <div class="quantity">
-            <span>Zutaten für </span>
-            <input class="input-number" type="number" name="Portionen" id="Portionen">
-            <button class="quantity_button">Portionen</button>
-        </div>
+        <article>
+            <section>
+                <h1>Okroschka</h1>
+                <img class="emil_recept_img" src="./img/okroschka2.jpg" alt="">
+                <div class="emil_badge_info">
+                    <aside class="emil_badge">
+                        <img src="./img/icons/clock-regular.svg" alt="" class="emil_badge_icon">
+                        <span>20 min</span>
+                    </aside>
+                    <aside class="emil_badge">
+                        <img src="./img/icons/brain-solid.svg" alt="" class="emil_badge_icon">
+                        <span>simpel</span>
+                    </aside>
+                    <aside class="emil_badge">
+                        <img src="./img/icons/calendar-alt-regular.svg" alt="" class="emil_badge_icon">
+                        <span>18.08.2025</span>
+                    </aside>
+                </div>
+            </section>
 
-        <div class="recipe-table">
+            <!-- section Ingriedients -->
+            <hr width="100%" style="color: rgb(0 0 0 / 0.1);">
+            <div class="quantity">
+                <span>Zutaten für </span>
+                <input class="input-number" type="number" name="Portionen" id="Portionen">
+                <button class="quantity_button">Portionen</button>
+            </div>
+
             <table>
                 <tr class="gray-bg">
                     <!-- <td>500g</td> -->
@@ -115,38 +119,36 @@
                     <td>Muskat</td>
                 </tr>
             </table>
-        </div>
 
-
-        <h2>Zubereitung</h2>
-        <div class="preparation">
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
-                <span>ca. 15 Minuten</span>
+            <!-- instructions -->
+            <h2>Zubereitung</h2>
+            <div class="preparation">
+                <div class="detail_card">
+                    <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
+                    <span>ca. 15 Minuten</span>
+                </div>
+                <div class="detail_card">
+                    <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
+                    <span>Gesamtzeit ca. 15 Minuten</span>
+                </div>
             </div>
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
-                <span>Gesamtzeit ca. 15 Minuten</span>
-            </div>
-        </div>
-        <p>
-            Gurke waschen und ungeschält in dünne Scheiben oder Stücke schneiden. Paprika waschen, entkernen und in
-            dünne Streifen schneiden. Tomaten waschen und achteln. Zwiebeln schälen und in feine Ringe schneiden.
-            Schafskäse würfeln und mit Oregano bestreuen. Oliven abgießen und mit Gurke, Paprika, Tomaten, Zwiebeln und
-            Schafskäse in eine Schüssel geben. Olivenöl, Zitronensaft, Salz und Pfeffer zu einer Sauce verrühren und
-            über den Salat gießen. Umrühren.
-        </p>
+            <p>
+                Gurke waschen und ungeschält in dünne Scheiben oder Stücke schneiden. Paprika waschen, entkernen und in
+                dünne Streifen schneiden. Tomaten waschen und achteln. Zwiebeln schälen und in feine Ringe schneiden.
+                Schafskäse würfeln und mit Oregano bestreuen. Oliven abgießen und mit Gurke, Paprika, Tomaten, Zwiebeln
+                und
+                Schafskäse in eine Schüssel geben. Olivenöl, Zitronensaft, Salz und Pfeffer zu einer Sauce verrühren und
+                über den Salat gießen. Umrühren.
+            </p>
 
-
-        <h3>Rezept erstellt von</h3>
-        <div class="profile-box">
-            <img class="creator-img" src="./img/profile.png" alt="Profilbild">
-            <span>Nam</span>
-        </div>
+            <!-- made from -->
+            <section class="emil_recipe_footer">
+                <h3>Rezept erstellt von</h3>
+                <figure>
+                    <img src="./img/pic_emil.png" alt="">
+                    <figcaption>Emil</figcaption>
+                </figure>
+            </section>
+        </article>
     </main>
-    <footer>
-    </footer>
-
 </body>
-
-</html>
