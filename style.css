@@ -1,18 +1,45 @@
-/* Basis */
+/* Normalize*/
+h1, h2, h3{
+    padding: 0;
+    margin: 0;
+}
 
-body {
+/* Global */
+
+* {
     font-family: "Raleway";
     margin: 0;
 }
 
-.h2_main {
-    padding-top: 40px;
+header {
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
+}
+
+main {
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .padding-left-right {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+
 
 /* Navigation */
 
@@ -51,18 +78,11 @@ li {
 
 /* Wiederverwendbar */
 
-/* Layout */
-
-/* Header */
+/* Index.html*/
 
 .header_banner {
     width: 300px;
 }
-
-header {
-    box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
-}
-
 
 /* Französisches Croissants */
 
@@ -138,8 +158,11 @@ header {
             padding-bottom: 40px;
 
         }
-
     }
+}
+
+.new-arrivals_h2 {
+    padding-top: 40px;
 }
 
 /* RezeptSeite */
@@ -151,22 +174,25 @@ header {
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .badge-list {
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 .badge {
     display: flex;
-    flex-direction: row;
-    gap: 16px;
+    gap: 12px;
     background-color: rgb(239 239 239);
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 100;
     color: rgb(0, 0, 0);
-    padding: 8px;
+    padding: 4px 12px;
+    align-items: center;
 }
 
 .badge-icon {
@@ -174,9 +200,16 @@ header {
     height: 16px;
 }
 
+hr {
+    width: 100%;
+    color: rgb(239 239 239 0.1 );
+    margin-top: 72px;
+    margin-bottom: 12px;
+}
+
 /* section Ingriedients */
 
-.quantity {
+.servings {
     display: flex;
     align-items: center;
 
@@ -186,7 +219,7 @@ header {
         margin-right: 16px;
     }
 
-    .input-number {
+    input {
         width: 152px;
         padding-top: 12px;
         padding-bottom: 12px;
@@ -208,26 +241,61 @@ header {
     }
 }
 
-/* instructions */
-
-.preparation {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+table {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 100%;
 }
 
-/* Recipe-footer */
-.recipe-footer {
+tr {
+    width: 100%;
+    font-weight: 100;
+}
+
+td {
+    font-size: 16px;
+    padding: 20px 40px;
+    font-weight: 100;
+    border-radius: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(239 239 239);
+}
+
+/* instructions */
+
+.instructions {
+    .badge-list {
+        margin-top: 18px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 40px;
+    }
+}
+
+/* made from */
+
+.made-from {
+    margin-top: 28px;
+    margin-bottom: 80px;
 
     figure {
+        margin-top: 16px;
         display: flex;
         align-items: center;
         gap: 24px;
+        font-size: 24px;
+        font-weight: 100;
     }
-
+    
     img {
-        height: 60px;
-        width: 60px;
+        height: 72px;
+        border-radius: 50%;
     }
 }
 
