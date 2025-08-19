@@ -91,6 +91,7 @@ li {
 .topmenu {
     display: flex;
     justify-content: center;
+    margin-top: 64px;
 }
 
 .topmenu-img {
@@ -128,6 +129,7 @@ li {
     h2 {
         padding-top: 40px;
         padding-bottom: 40px;
+        font-weight: bold;
     }
 
     div {
@@ -139,8 +141,8 @@ li {
 
 
         img {
-            height: 240px;
-            width: 240px;
+            height: 200px;
+            width: 200px;
             border-radius: 20px;
         }
 
