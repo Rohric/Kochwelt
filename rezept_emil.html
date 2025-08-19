@@ -10,7 +10,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="./img/logo_small.png">
-    <title>Rezept Emil</title>
+    <title>Master Rezept</title>
 </head>
 
 <body>
@@ -36,109 +36,131 @@
             </ul>
         </nav>
     </header>
+    <!-- head Article -->
+    <main class="padding-left-right">
+        <article>
+            <section>
+                <h1>Okroschka</h1>
+                <img class="recipe-img" src="./img/okroschka2.jpg" alt="">
+                <div class="badge-list">
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="">
+                        <span>20 min</span>
+                    </div>
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="">
+                        <span>simpel</span>
+                    </div>
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="">
+                        <span>18.08.2025</span>
+                    </div>
+                </div>
+            </section>
 
-    <!-- article -->
-    <article class="emil_recept_site">
+            <!-- section Ingriedients -->
+            <hr>
 
-        <!-- head Article -->
-        <section>
-            <h1>Okroschka</h1>
-            <img class="emil_recept_img" src="./img/okroschka2.jpg" alt="">
-            <div class="emil_badge_info">
-                <aside class="emil_badge">
-                    <img src="./img/icons/clock-regular.svg" alt="" class="emil_badge_icon">
-                    <span>20 min</span>
-                </aside>
-                <aside class="emil_badge">
-                    <img src="./img/icons/brain-solid.svg" alt="" class="emil_badge_icon">
-                    <span>simpel</span>
-                </aside>
-                <aside class="emil_badge">
-                    <img src="./img/icons/calendar-alt-regular.svg" alt="" class="emil_badge_icon">
-                    <span>18.08.2025</span>
-                </aside>
-            </div>
-        </section>
+            <section>
+                <div class="servings">
+                    <span>Zutaten für </span>
+                    <input type="number" name="Portionen" id="Portionen">
+                    <button>Portionen</button>
+                </div>
 
-        <!-- section Ingriedients -->
-        <hr class="emil_hr_margin" width="100%">
-        <section>
-            <div class="emil_input__person_button">
-                <span>Zutaten für</span>
-                <input class="emil_input_persons" type="number">
-                <button class="emil_button_green">Portionen</button>
-            </div>
+                <table>
+                    <tr>
+                        <td>500ml Kefir</td>
+                    </tr>
+                    <tr>
+                        <td>250g Saure Sahne</td>
+                    </tr>
+                    <tr>
+                        <td>300ml Mineralwasser mit wenig Kohlensäure</td>
+                    </tr>
+                    <tr>
+                        <td>3 gekochte Kartoffeln</td>
+                    </tr>
+                    <tr>
+                        <td>3 gekochte Eier</td>
+                    </tr>
+                    <tr>
+                        <td>300 Gramm Fleischwurst</td>
+                    </tr>
+                    <tr>
+                        <td>3 Knoblauchzehe(n)</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 Bund Radieschen</td>
+                    </tr>
+                    <tr>
+                        <td>1/2 Salatgurke</td>
+                    </tr>
+                    <tr>
+                        <td>2 ELOlivenöl</td>
+                    </tr>
+                    <tr>
+                        <td>2 große Ei(er)</td>
+                    </tr>
+                    <tr>
+                        <td>1 Prise Salz</td>
+                    </tr>
+                    <tr>
+                        <td>halber Bund Schnittlauch</td>
+                    </tr>
+                    <tr>
+                        <td>halber Bund Dill</td>
+                    </tr>
+                    <tr>
+                        <td>weitere Kräuter nach wahl</td>
+                    </tr>
+                    <tr>
+                        <td>Nach Geschmack 1 Esslöffel Zitronensaft</td>
+                    </tr>
+                    <tr>
+                        <td>Nach Geschmack 2 Frühlingszwiebeln (mit Vorsicht!) </td>
+                    </tr>
+                </table>
+            </section>
+            <!-- instructions -->
+            <section class="instructions">
+                <h2>Zubereitung</h2>
+                <div class="badge-list">
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
+                        <span>ca. 30 Minuten</span>
+                    </div>
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
+                        <span>kühlzeit ca. 2 Stunden</span>
+                    </div>
+                </div>
+                <p>
+                    Für Okroschka kochst du zuerst Kartoffeln und Eier, schälst sie und schneidest alles in kleine
+                    Würfel.
+                    Danach würfelst du Fleischwurst und schneidest Radieschen sowie Gewürzgurken. Frühlingszwiebeln und
+                    Dill
+                    hackst du fein, damit sie ihren frischen Geschmack entfalten. Alles kommt zusammen in eine große
+                    Schüssel. Nun verrührst du Kefir mit Mineralwasser, bis eine leichte, cremige Flüssigkeit entsteht.
+                    Mit
+                    Salz, Pfeffer, Senf oder etwas Zitronensaft würzt du die Mischung nach deinem Geschmack. Zum Schluss
+                    gießt du die Flüssigkeit über die Zutaten, rührst alles gut durch und stellst die Suppe kalt. So
+                    hast du
+                    eine erfrischende, sommerliche Mahlzeit. 🥒✨
+                </p>
+            </section>
 
-            <table class="emil_ingredients_table">
-                <tr class="emil_ingredient_list">
-                    <td class="emil_ingredient_border">500mlKefir, 250g saure sahne </td>
-                </tr>
-                <tr class="emil_ingredient_list_white">
-                    <td class="emil_ingredient_border">300 mlMineralwasser mit Kohlernsäure </td>
-                </tr>
-                <tr class="emil_ingredient_list">
-                    <td class="emil_ingredient_border">3 gekochte Kartoffeln, wenn man mag 1 esslöfel Zitronensaft</td>
-                </tr>
-                <tr class="emil_ingredient_list_white">
-                    <td class="emil_ingredient_border">3 Gekochte Eier</td>
-                </tr>
-                <tr class="emil_ingredient_list">
-                    <td class="emil_ingredient_border">300g Fleischwurst</td>
-                </tr>
-                <tr class="emil_ingredient_list_white">
-                    <td class="emil_ingredient_border">1/2 Bund Radieschen</td>
-                </tr>
-                <tr class="emil_ingredient_list">
-                    <td class="emil_ingredient_border">1/2 Salatgurke</td>
-                </tr>
-                <tr class="emil_ingredient_list_white">
-                    <td class="emil_ingredient_border">Salz Prise</td>
-                </tr>
-                <tr class="emil_ingredient_list">
-                    <td class="emil_ingredient_border">Pfeffer Prise</td>
-                </tr>
-                <tr class="emil_ingredient_list_white">
-                    <td class="emil_ingredient_border">Kräter nach wahl (halber Bund Dill und halber bund Schnittlauch)</td>
-                </tr>
-                <tr class="emil_ingredient_list_white">
-                    <td class="emil_ingredient_border">2 Frühlingszwiebeln(nach Geschmack,mit vorsicht)</td>
-                </tr>
+            <!-- made from -->
+            <section class="made-from">
+                <h3>Rezept erstellt von</h3>
+                <figure>
+                    <img src="./img/pic_emil.png" alt="Creator">
+                    <figcaption>Emil</figcaption>
+                </figure>
+            </section>
+        </article>
+    </main>
+    <footer>
 
-            </table>
-
-        </section>
-
-        <!-- instructions -->
-        <section>
-            <h2>Zubereitung</h2>
-            <div class="emil_badge_info">
-                <aside class="emil_badge">
-                    <img src="./img/icons/clock-regular.svg" alt="" class="emil_badge_icon">
-                    <span>ca. halbe stunde</span>
-                </aside>
-                <aside class="emil_badge">
-                    <img src="./img/icons/clock-regular.svg" alt="" class="emil_badge_icon">
-                    <span>Kühlzeit ca. 2Stunden</span>
-                </aside>
-            </div>
-            <p>Für Okroschka kochst du zuerst Kartoffeln und Eier, schälst sie und schneidest alles in kleine Würfel.
-                Danach würfelst du Fleischwurst und schneidest Radieschen sowie Gewürzgurken. Frühlingszwiebeln und Dill
-                hackst du fein, damit sie ihren frischen Geschmack entfalten. Alles kommt zusammen in eine große
-                Schüssel. Nun verrührst du Kefir mit Mineralwasser, bis eine leichte, cremige Flüssigkeit entsteht. Mit
-                Salz, Pfeffer, Senf oder etwas Zitronensaft würzt du die Mischung nach deinem Geschmack. Zum Schluss
-                gießt du die Flüssigkeit über die Zutaten, rührst alles gut durch und stellst die Suppe kalt. So hast du
-                eine erfrischende, sommerliche Mahlzeit. 🥒✨</p>
-        </section>
-
-        <!-- made from -->
-        <section class="emil_recipe_footer">
-            <h3>Rezept erstellt von</h3>
-            <figure>
-                <img src="./img/pic_emil.png" alt="">
-                <figcaption>Emil</figcaption>
-            </figure>
-        </section>
-    </article>
+    </footer>
 </body>
-
-</html>
