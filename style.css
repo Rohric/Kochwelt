@@ -170,6 +170,26 @@ li {
     padding-top: 40px;
 }
 
+/* section pfanne-wok */
+
+.pfanne-wok {
+    h2 {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .display {
+        display: flex;
+
+        img {
+            width: 200px;
+            height: 200px;
+            /* object-fit: cover; */
+            border-radius: 8px;
+        }
+    }
+}
+
 /* RezeptSeite */
 
 /* head article */
