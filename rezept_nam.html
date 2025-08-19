@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="./img/logo_small.png">
-    <title>Kochwelt</title>
+    <title>Master Rezept</title>
 </head>
 
 <body>
+    <!-- Header -->
     <header class="padding-left-right">
         <nav>
             <div class="nav-left">
@@ -39,119 +40,98 @@
             </div>
         </nav>
     </header>
-    <br>
-    <br>
+    <!-- head Article -->
     <main class="padding-left-right">
-        <h1>Gyros-Nudelauflauf in Metaxasoße</h1>
-        <img class="spinat-nudelauflauf_img" src="./img/spinat-nudelauflauf.jpg" alt="Spinat Nudelauflauf">
-        <div class="craft-display">
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
-                <span>15 Min.</span>
-            </div>
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/brain-solid.svg" alt="Schwierigkeitsstufe">
-                <span>simpel</span>
-            </div>
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/calendar-alt-regular.svg" alt="Erstellt am">
-                <span>28.09.2020</span>
-            </div>
-        </div>
-        <hr width="100%" style="color: rgb(0 0 0 / 0.1);">
-        <div class="quantity">
-            <span>Zutaten für </span>
-            <input type="number" id="Portionen" value="4">
-            <button class="quantity_button">Portionen</button>
-        </div>
+        <article>
+            <section>
+                <h1>Spinat Nudelauflauf</h1>
+                <img class="recipe-img" src="./img/spinat-nudelauflauf.jpg" alt="spinat nudelauflauf">
+                <div class="badge-list">
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="">
+                        <span>20 min</span>
+                    </div>
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="">
+                        <span>simpel</span>
+                    </div>
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="">
+                        <span>18.08.2025</span>
+                    </div>
+                </div>
+            </section>
 
-        <div class="recipe-table">
-            <table>
-                <tr class="gray-bg">
-                    <!-- <td>500g</td> -->
-                    <td>500g Nudeln</td>
-                </tr>
-                <tr>
-                    <!-- <td>300g</td> -->
-                    <td>300g Käse</td>
-                </tr>
-                <tr class="gray-bg">
-                    <!-- <td>300g</td> -->
-                    <td>300g Hackfleisch</td>
-                </tr>
-                <tr>
-                    <!-- <td>500g</td> -->
-                    <td>500g Champignons</td>
-                </tr>
-                <tr class="gray-bg">
-                    <!-- <td>400g</td> -->
-                    <td>400g Spinat</td>
-                </tr>
-                <tr>
-                    <!-- <td>1</td> -->
-                    <td>1 Zwibel(n)</td>
-                </tr>
-                <tr class="gray-bg">
-                    <!-- <td>3</td> -->
-                    <td>3 Knoblauchzehe(n)</td>
-                </tr>
-                <tr>
-                    <!-- <td>1 TL, gehäuft</td> -->
-                    <td>1 TL, gehäuft Gemüsebrühe, gekörnte</td>
-                </tr>
-                <tr class="gray-bg">
-                    <!-- <td>1 TL, gestr.</td> -->
-                    <td>1 TL, gestr. Oregano und Majoran</td>
-                </tr>
-                <tr>
-                    <!-- <td>2 EL</td> -->
-                    <td>2 ELOlivenöl</td>
-                </tr>
-                <tr class="gray-bg">
-                    <!-- <td>2 große</td> -->
-                    <td>2 große Ei(er)</td>
-                </tr>
-                <tr>
-                    <!-- <td></td> -->
-                    <td>Salz und Pfeffer</td>
-                </tr>
-                <tr class="gray-bg">
-                    <!-- <td></td> -->
-                    <td>Muskat</td>
-                </tr>
-            </table>
-        </div>
+            <!-- section Ingriedients -->
+            <hr>
 
+            <section>
+                <div class="servings">
+                    <span>Zutaten für </span>
+                    <input type="number" name="Portionen" id="Portionen">
+                    <button>Portionen</button>
+                </div>
 
-        <h2>Zubereitung</h2>
-        <div class="preparation">
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
-                <span>ca. 15 Minuten</span>
-            </div>
-            <div class="detail_card">
-                <img class="craft-icons" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
-                <span>Gesamtzeit ca. 15 Minuten</span>
-            </div>
-        </div>
-        <p>
-            Gurke waschen und ungeschält in dünne Scheiben oder Stücke schneiden. Paprika waschen, entkernen und in
-            dünne Streifen schneiden. Tomaten waschen und achteln. Zwiebeln schälen und in feine Ringe schneiden.
-            Schafskäse würfeln und mit Oregano bestreuen. Oliven abgießen und mit Gurke, Paprika, Tomaten, Zwiebeln und
-            Schafskäse in eine Schüssel geben. Olivenöl, Zitronensaft, Salz und Pfeffer zu einer Sauce verrühren und
-            über den Salat gießen. Umrühren.
-        </p>
+                <table>
+                    <tr>
+                        <td>250g Nudeln</td>
+                    </tr>
+                    <tr>
+                        <td>500g Hackfleisch</td>
+                    </tr>
+                    <tr>
+                        <td>450g Rahmspinat</td>
+                    </tr>
+                    <tr>
+                        <td>2 Zwibeln</td>
+                    </tr>
+                    <tr>
+                        <td>1 Knoblauchzehen</td>
+                    </tr>
+                    <tr>
+                        <td>1 Gemüsebrühwürfel</td>
+                    </tr>
+                    <tr>
+                        <td>100ml Sahne</td>
+                    </tr>
+                    <tr>
+                        <td>Salz und Pfeffer</td>
+                    </tr>
+                </table>
+            </section>
+            <!-- instructions -->
+            <section class="instructions">
+                <h2>Zubereitung</h2>
+                <div class="badge-list">
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
+                        <span>ca. 20 Minuten</span>
+                    </div>
+                    <div class="badge">
+                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
+                        <span>Gesamtzeit ca. 20 Minuten</span>
+                    </div>
+                </div>
+                <p>
+                    Braten Sie das Hackfleisch an, danach geben sie die Zwiebeln und die Knoblauchzehe dazu und würzen mit Salz und Pfeffer. Überstreuen sie die Masse mit einem kleingebröselten Brühwürfel. Das Ganze dann durchbraten. In der Zwischenzeit die Nudeln kochen.
 
+                    Sobald die Hackfleischmasse durchgebraten ist, verteilen Sie den noch gefrorenen Spinat darauf und lassen ihn bei geringer Wärmezufuhr auftauen.
 
-        <h3>Rezept erstellt von</h3>
-        <div class="profile-box">
-            <img class="creator-img" src="./img/profile.png" alt="Profilbild">
-            <span>Nam</span>
-        </div>
+                    Wenn der Spinat aufgetaut ist, vermischen Sie alles mit etwas Milch und den Nudeln, geben es in eine Auflaufform, gießen die Sahne darüber, bestreuen den Auflauf mit Käse und überbacken ihn 10 Minuten bei 180°C.
+                </p>
+            </section>
+
+            <!-- made from -->
+            <section class="made-from">
+                <h3>Rezept erstellt von</h3>
+                <figure>
+                    <img src="./img/pic_nam.png" alt="Creator">
+                    <figcaption>Nam</figcaption>
+                </figure>
+            </section>
+        </article>
     </main>
     <footer>
+        
     </footer>
-
 </body>
-
-</html>
