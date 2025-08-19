@@ -332,7 +332,29 @@ tr:nth-child(odd) {
     }
 }
 
+/* Contact-us */
 
+.contact-us{
+    background-image:url(./img/contact-us/Kochwelt\ -\ Contact\ us\ -\ background.png);
+    height: 100vh;
+    width: 100%;
+}
+.grandparents{
+    border: black;
+    border-width: 5px;
+    border: 5px;
+    border-bottom: #EFEFEF;
+}
+.grandma{
+    display:flex;
+    height: 320px;
+    width: 160px;
+}
+.grandpa{
+    display:flex;
+    height: 320px;
+    width: 160px;
+}
 
 
 /* @Media */
