@@ -1,0 +1,57 @@
+/* Basis */
+
+body {
+    font-family: "Raleway";
+    margin: 0;
+}
+
+.h2_main {
+    padding-top: 40px;
+}
+
+.padding-left-right {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+/* Wiederverwendbar */
+
+/* Layout */
+
+/* Header */
+
+.header_banner {
+    width: 300px;
+}
+
+header {
+    box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
+}
+
+
+/* Section/Site */
+
+/* Section/Site */
+
+/* Section/Site */
+
+/* Section/Site */
+
+/* Section/Site */
+
+/* Section/Site */
+
+/* Footer */
+
+/* @Media */
+
+
+
