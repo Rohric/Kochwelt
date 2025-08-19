@@ -304,17 +304,6 @@ main {
     width: 16px;
 }
 
-.recipe-meta-display {
-    display: flex;
-    gap: 15px;
-    margin-top: 30px;
-    margin-bottom: 90px;
-}
-
-.recipe-meta-display img {
-    width: 16px;
-}
-
 .quantity {
     display: flex;
     padding-bottom: 10px;
@@ -340,20 +329,57 @@ tr td:last-child{
     border-bottom-right-radius: 10px;
 }
 
-
 .td-left {
     text-align: end;
     padding-right: 20px;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #f2f2f2;
-}
+} */
 
 tr:nth-child(odd) {
-  background-color: #d1cfcf;
+  background-color: rgb(239, 239, 239);
+}
 
-  
+.time-required {
+    display: flex;
+    align-items: center;
+    gap: 45px;    
+    margin-bottom: 30px;
+}
+
+.time-required-color {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    gap: 16px;
+    background-color: #d1cfcf;
+    border-radius: 4px;
+}
+
+.time-required img {
+    width: 16px;
+}
+
+.created-by {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.profil img {
+    width: 100px;
+    border-radius: 50%;
 }
 
 /*  style Christian Rezept */
