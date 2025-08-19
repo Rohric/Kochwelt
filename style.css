@@ -145,9 +145,6 @@ header {
 /* RezeptSeite */
 
 /* head article */
-.emil_recept_site {
-    margin: 0px 64px;
-}
 
 .recipe-img {
     width: 100%;
@@ -219,7 +216,7 @@ header {
     align-items: center;
 }
 
-/* footer */
+/* Recipe-footer */
 .recipe-footer {
 
     figure {
@@ -234,7 +231,7 @@ header {
     }
 }
 
-/* Section/Site */
+
 
 /* Footer */
 
