@@ -1,5 +1,7 @@
 /* Normalize*/
-h1, h2, h3{
+h1,
+h2,
+h3 {
     padding: 0;
     margin: 0;
 }
@@ -123,9 +125,9 @@ li {
     background-color: #EFEFEF;
     text-align: center;
 
-    img {
-        height: 44px;
-        width: 44px;
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     div {
@@ -133,11 +135,13 @@ li {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
+        padding-bottom: 32px;
 
 
         img {
-            height: 140px;
-            width: 140px;
+            height: 240px;
+            width: 240px;
+            border-radius: 20px;
         }
 
         .figure {
@@ -146,7 +150,7 @@ li {
         }
 
         figcaption {
-            font-weight: bold;
+            font-weight: 500;
             text-align: center;
             color: black;
             font-size: 16px;
@@ -161,9 +165,7 @@ li {
     }
 }
 
-.new-arrivals_h2 {
-    padding-top: 40px;
-}
+
 
 /* RezeptSeite */
 
@@ -202,7 +204,7 @@ li {
 
 hr {
     width: 100%;
-    color: rgb(239 239 239 0.1 );
+    color: rgb(239 239 239 0.1);
     margin-top: 72px;
     margin-bottom: 12px;
 }
@@ -292,7 +294,7 @@ tr:nth-child(odd) {
         font-size: 24px;
         font-weight: 100;
     }
-    
+
     img {
         height: 72px;
         border-radius: 50%;
@@ -322,6 +324,3 @@ footer {
 }
 
 /* @Media */
-
-
-
