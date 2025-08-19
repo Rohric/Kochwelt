@@ -167,6 +167,35 @@ li {
     }
 }
 
+/* Footer */
+
+footer {
+    margin-top: 120px;
+    background-color: rgb(64 59 59);
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    figure {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    img {
+        height: 60px;
+        width: 60px;
+    }
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 12px;
+
+  
+}
 
 
 /* RezeptSeite */
@@ -305,24 +334,5 @@ tr:nth-child(odd) {
 
 
 
-/* Footer */
-
-footer {
-    margin-top: 120px;
-    background-color: rgb(64 59 59);
-    height: 280px;
-    display: flex;
-
-    figure {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-    }
-
-    img {
-        height: 60px;
-        width: 60px;
-    }
-}
 
 /* @Media */
