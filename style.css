@@ -75,6 +75,7 @@ nav {
   }
 
   button {
+    display: none;
     background: none;
     border: none;
     cursor: pointer;
@@ -117,8 +118,6 @@ ul {
   display: flex;
   list-style-type: none;
   gap: 30px;
-
-  
 }
 
 li {
@@ -228,37 +227,36 @@ li {
     padding-bottom: 40px;
   }
 
-    .display {
-        display: flex;
-        align-items: center;     
-        justify-content: space-between;     
-    }
-    
-    .display img {
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 12px;
-    }
-    
-    .text-block {
-        max-width: 600px;     
-        line-height: 1.6;      
-        text-align: justify;    
-        font-size: 16px;
-    }
-    
+  .display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .display img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .text-block {
+    max-width: 600px;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 16px;
+  }
 }
 
 /* Footer */
 
 footer {
-    margin-top: 120px;
-    background-color: #efefef;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 120px;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-logo {
@@ -277,44 +275,43 @@ footer {
 }
 
 .footer-end {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
 
-    a {
-        text-decoration: none;
-    }
-    img{
-        border-radius: 50%;
-        height: 32px;
-        width: 32px;
-    }
+  a {
+    text-decoration: none;
+  }
+  img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+  }
 }
 
 .footer-end-left {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  a {
     color: red;
-}
+  }
 }
 
 .footer-end-right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-    a{
-        color: green;
-    }
-    a:nth-child(3){
-        color:#FD5B4F;
-    }
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  a {
+    color: green;
+  }
+  a:nth-child(3) {
+    color: #fd5b4f;
+  }
 }
 
 /* RezeptSeite XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
@@ -362,9 +359,9 @@ hr {
 /* section Ingriedients */
 
 .servings {
-    display: flex;
-    align-items: center;
-    /* gap: 16px; */
+  display: flex;
+  align-items: center;
+  /* gap: 16px; */
 
   span {
     font-size: 18px;
@@ -485,6 +482,12 @@ tr:nth-child(odd) {
     width: 200px;
   }
 
+  nav {
+    button {
+      display: block;
+    }
+  }
+
   .wide-menu {
     display: none;
   }
@@ -506,7 +509,7 @@ tr:nth-child(odd) {
     }
 
     a:hover {
-        color: rgb(0 128 0);
+      color: rgb(0 128 0);
     }
   }
 
