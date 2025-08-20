@@ -237,6 +237,11 @@ footer {
         text-decoration: none;
         color: orangered;
     }
+    img{
+        border-radius: 50%;
+        height: 32px;
+        width: 32px;
+    }
 }
 
 .footer-end-left {
