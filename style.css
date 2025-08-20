@@ -222,6 +222,7 @@ li {
       height: 200px;
       width: 200px;
       border-radius: 20px;
+      object-fit:cover;
     }
 
     a {
@@ -298,13 +299,16 @@ footer {
   background-position: center;
   background-size: 700px;
   color: transparent;
+  cursor: default;
 }
 
 .footer-logo-text {
   font-size: 150px;
   font-weight: 700;
 }
-
+footer:hover .footer-logo-text {
+  transform: scale(1.05); 
+}
 .footer-end {
   height: 100%;
   display: flex;
