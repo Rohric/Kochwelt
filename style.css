@@ -235,6 +235,7 @@ footer {
 
     a {
         text-decoration: none;
+        color: orangered;
     }
 }
 
@@ -246,6 +247,7 @@ footer {
 .footer-end-right {
     display: flex;
     gap: 8px;
+    p{color: orange;}
 }
 
 /* RezeptSeite XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
