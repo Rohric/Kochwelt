@@ -94,7 +94,7 @@
   }
 
 
-  /* ki generiert */
+ /* min-height wurde ki generiert */
   .mail_send {
     min-height: calc(100vh - 2 * clamp(16px, 4vw, 48px)); 
     align-items: center;            
@@ -110,6 +110,5 @@
     height: auto;                   
     max-height: 70vh;               
     object-fit: contain;             
-    /* border-radius: 16px;           
-    box-shadow: 0 8px 24px rgba(0,0,0,.08);  */
+  
   }
