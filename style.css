@@ -213,7 +213,7 @@ footer {
     align-items: center;
 }
 
-.footer-logo{
+.footer-logo {
     background: url(./img/Bolognese.png);
 
     -webkit-background-clip: text;
@@ -228,16 +228,22 @@ footer {
     font-weight: 700;
 }
 
-.footer-end{
+.footer-end {
     display: flex;
     flex-direction: row;
     gap: 30px;
+
+    a {
+        text-decoration: none;
+    }
 }
-.footer-end-left{
+
+.footer-end-left {
     display: flex;
     gap: 8px;
 }
-.footer-end-right{
+
+.footer-end-right {
     display: flex;
     gap: 8px;
 }
@@ -376,33 +382,6 @@ tr:nth-child(odd) {
         object-fit: cover;
         border-radius: 50%;
     }
-}
-
-/* Contact us Seite XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-
-.contact-us {
-    background-image: url(./img/contact-us/Kochwelt\ -\ Contact\ us\ -\ background.png);
-    height: 100vh;
-    width: 100%;
-}
-
-.grandparents {
-    border: black;
-    border-width: 5px;
-    border: 5px;
-    border-bottom: #efefef;
-}
-
-.grandma {
-    display: flex;
-    height: 320px;
-    width: 160px;
-}
-
-.grandpa {
-    display: flex;
-    height: 320px;
-    width: 160px;
 }
 
 /* @Media */
