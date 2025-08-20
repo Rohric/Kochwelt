@@ -212,14 +212,22 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-logo{
-    width: auto;
-    height: auto;
-    img{
-        height: 180px;
-        width: auto;
-    }
+    background: url(./img/Bolognese.png);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: center;
+    background-size: 700px;
+    color: transparent;
 }
+
+.footer-logo-text {
+    font-size: 150px;
+    font-weight: 700;
+}
+
 .footer-end{
     display: flex;
     flex-direction: row;
