@@ -206,7 +206,6 @@ li {
 footer {
     margin-top: 120px;
     background-color: #efefef;
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -229,13 +228,14 @@ footer {
 }
 
 .footer-end {
+    height: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 30px;
 
     a {
         text-decoration: none;
-        color: orangered;
     }
     img{
         border-radius: 50%;
@@ -246,13 +246,26 @@ footer {
 
 .footer-end-left {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 8px;
+a{
+    color: red;
+}
 }
 
 .footer-end-right {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 8px;
-    p{color: orange;}
+    a{
+        color: green;
+    }
+    a:nth-child(3){
+        color: orange;
+    }
+    
 }
 
 /* RezeptSeite XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
