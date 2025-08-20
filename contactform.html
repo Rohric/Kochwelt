@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="contactform_style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div><img src="./img/logo.png" alt="Kochwelt-logo"></div>
     <div class="contact-form">
     <h2>Kontakt</h2>
-    <form action="mailto:deine@email.de" method="post" enctype="text/plain">
+    <form onsubmit="sendMail(event)" method="post">
       <div class="form-group">
         <label for="name">Name *</label>
         <input type="text" id="name" name="name" required>
@@ -32,4 +33,5 @@
     <a href="index.html" class="back-link" onclick="window.close(); return false;">Zurück zur Startseite</a>
   </div>
 </body>
+
 </html>
