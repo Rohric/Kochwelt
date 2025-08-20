@@ -168,7 +168,7 @@ li {
 }
 
 .topmenu-img {
-  width: 400px;
+  max-width: 400px;
   border-radius: 8px;
 }
 
@@ -222,7 +222,7 @@ li {
       height: 200px;
       width: 200px;
       border-radius: 20px;
-      object-fit:cover;
+      object-fit: cover;
     }
 
     a {
@@ -306,9 +306,11 @@ footer {
   font-size: 150px;
   font-weight: 700;
 }
+
 footer:hover .footer-logo-text {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
+
 .footer-end {
   height: 100%;
   display: flex;
@@ -512,6 +514,7 @@ tr:nth-child(odd) {
   .new-arrivals {
 
     margin-top: 40px;
+
     div {
       flex-direction: column;
     }
@@ -525,6 +528,10 @@ tr:nth-child(odd) {
     display: flex;
     flex-direction: column-reverse;
     gap: 24px;
+  }
+
+  .topmenu-img {
+    width: 240px;
   }
 }
 
