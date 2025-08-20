@@ -343,7 +343,7 @@ footer:hover .footer-logo-text {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8px;
+  gap: 20px;
 
   a {
     color: green;
