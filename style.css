@@ -215,7 +215,7 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 32px;
 
     img {
@@ -263,6 +263,11 @@ li {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+
+    p{
+    padding: 0;
+    margin: 0;
+    }
   }
 
   .display img {
@@ -273,7 +278,6 @@ li {
   }
 
   .text-block {
-    max-width: 600px;
     line-height: 1.6;
     text-align: justify;
     font-size: 16px;
@@ -482,7 +486,7 @@ tr:nth-child(odd) {
   }
 }
 
-/* @Media  Tablet*/
+/* @Media  Tablet XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @media (max-width: 960px) {
   .wide-menu {
@@ -528,11 +532,72 @@ tr:nth-child(odd) {
     display: flex;
     flex-direction: column-reverse;
     gap: 24px;
+
+    p {
+      text-align: center;
+    }
   }
 
   .topmenu-img {
     width: 240px;
   }
+
+  .footer-logo {
+    background: url(./img/Bolognese.png);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: center;
+    background-size: 560px;
+    color: transparent;
+    cursor: default;
+  }
+
+  .footer-logo-text {
+    /* font-size: 112px; */
+    font-weight: 700;
+  }
+
+  footer:hover .footer-logo-text {
+    transform: scale(1.05);
+  }
+
+  .footer-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      border-radius: 50%;
+      height: 32px;
+      width: 32px;
+      object-fit: cover;
+    }
+  }
+
+  .footer-end-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    a {
+      color: red;
+    }
+  }
+
+  .footer-end-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
 }
 
 @media (max-width: 720px) {
@@ -677,10 +742,39 @@ tr:nth-child(odd) {
 
   footer {
     margin-top: 20px;
-    height: 280px;
   }
 
-  /* Index XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+  .footer-logo {
+    background: url(./img/Bolognese.png);
 
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: center;
+    background-size: 560px;
+    color: transparent;
+    cursor: default;
+  }
 
+  .footer-logo-text {
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  footer:hover .footer-logo-text {
+    transform: scale(1.05);
+  }
+
+  .footer-end {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .footer-end-right {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
 }
+/* Index XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
