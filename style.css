@@ -89,6 +89,17 @@ li {
 
 /* Wiederverwendbar */
 
+.transform{
+    border: none;
+    cursor: pointer;
+    transition: 700ms all ease-in-out;
+  }
+  
+  .transform:hover {
+    transform: scale(1.2); 
+  }
+  
+
 /* Index.html*/
 
 .header_banner {
@@ -160,6 +171,11 @@ li {
             border-radius: 20px;
         }
 
+        a {
+            text-decoration: none;
+            padding-bottom: 40px;
+        }
+
         .figure {
             display: flex;
             flex-direction: row;
@@ -172,10 +188,7 @@ li {
             font-size: 16px;
         }
 
-        a {
-            text-decoration: none;
-            padding-bottom: 40px;
-        }
+
     }
 }
 
