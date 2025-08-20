@@ -19,19 +19,20 @@
             <nav>
                 <div class="nav-left">
                     <a href="index.html">
-                    <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
-                </a>
+                        <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
+                    </a>
                 </div>
                 <div class="nav-right">
                     <ul>
                         <li>
-                            <a class="header_li_a" href="">Start</a>
+                            <a class="header_li_a" href="index.html">Start</a>
                         </li>
                         <li>
-                            <a class="header_li_a" href="">Rezept des Tages</a>
+                            <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
                         </li>
                         <li>
-                            <a class="header_li_a" href="">Kontakt</a>
+                            <a class="header_li_a" href="contactform.html"
+                                onclick="popupWindow(); return false;">Kontakt</a>
                         </li>
                         <li>
                             <a class="header_li_a" href="">Impressum</a>
@@ -92,8 +93,31 @@
             <div class="display">
                 <div>
                     <span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur debitis veritatis aut, nemo dolor tempore, sed necessitatibus voluptate pariatur adipisci incidunt odit, labore ducimus. Repellendus
-                        ipsa nobis incidunt odit sint.
+                        Tom und Lisa saßen in der Küche, während der Duft von frisch geschnittenem Gemüse den Raum
+                        erfüllte. <br>Tom schwang eine schwere Gusseisenpfanne in die Höhe. „Nichts geht über eine gute
+                        Pfanne!“, meinte er stolz. <br>„Fleisch bekommt darin diese schöne Kruste, Röstaromen entstehen
+                        besser, und ich kann damit fast alles machen <br>von Spiegelei bis Steak.“<br>
+
+                        Lisa schüttelte den Kopf und deutete auf ihren glänzenden Wok. „Aber schau doch, der Wok ist
+                        unschlagbar, wenn’s schnell gehen soll. Gemüse bleibt knackig, Nudeln braten nicht an, und die
+                        Hitze verteilt sich gleichmäßig. Außerdem braucht man oft weniger Öl.“<br>
+
+                        „Ja, schon,“ gab Tom zu, „aber versuch mal in einem Wok ein gleichmäßiges Schnitzel zu braten.
+                        Das wird nix, weil die Fläche in der Mitte kleiner ist.“<br>
+
+                        „Mag sein,“ lachte Lisa, „aber in deiner Pfanne kannst du kaum Pfannengerichte mit viel Gemüse
+                        schwenken. Alles wird zu schwer und klebt eher an.“<br>
+
+                        Sie blickten sich an, dann mussten beide grinsen. Eigentlich hatten sie beide recht. Die Pfanne
+                        war vielseitig, perfekt für Fleisch, Eier und Speisen, die eine flache Bratfläche brauchen. Der
+                        Wok hingegen glänzte bei asiatischen Gerichten, schnellem Schwenken, wenig Öl und knackigem
+                        Gemüse.<br>
+
+                        Am Ende nickte Tom nachdenklich: „Vielleicht ist die Wahrheit die, dass man beides braucht. Denn
+                        egal ob Pfanne oder Wok – das richtige Werkzeug hängt vom Gericht ab.“<br>
+
+                        Lisa legte das Messer weg und ergänzte: „Genau. Die Moral: In der Küche wie im Leben gibt es
+                        selten nur eine richtige Lösung. Manchmal ist Vielfalt das beste Rezept.“ 🍳🥢
                     </span>
                 </div>
                 <div>
@@ -104,35 +128,35 @@
     </div>
     <div class="widescreen">
         <footer>
-            <section class="footer-left">
-                <div class="creator">
-                    <p>creator 1</p>
-                    <p>Creator 2</p>
-                    <p>Creator 3</p>
 
+            <div class="footer-logo">
+                <span class="footer-logo-text">Kochwelt</span>
+            </div>
+
+            <div class="footer-end">
+                <div class="footer-end-left">
+                    <a href="rezept_emil.html"><img src="./img/pic_emil.png" alt=""></a>
+                    <a href="rezept_nam.html"><img src="./img/pic_nam.png" alt=""></a>
+                    <a href="rezept_christian.html"><img src="./img/pic_christian.png" alt=""></a>
+                    <a href="">Insta</a>
+                    <a href="">Youtube</a>
                 </div>
-                <div>
+                <div class="footer-end-right">
                     <a href="">Impressum</a>
-                    <a href="">Datenschutz</a>
+                    <a href="">datenschutz</a>
+                    <p>by Developer Akademie</p>
                 </div>
-            </section>
+            </div>
 
-            <section>
-                <img src="./img/logo.png" alt="">
-            </section>
-
-            <section>
-                <div>
-                    <a href="">insta</a>
-                    <a href="">Facebook</a>
-                    <a href="">youtube</a>
-                </div>
-                <div>
-                    <p>by Developer Academie</p>
-                </div>
-            </section>
         </footer>
     </div>
 </body>
+
+<script>
+    function popupWindow() {
+        var kontaktFenster = window.open("contactform.html", "Kontaktformular", "width=800,height=800,right=300,top=500");
+        kontaktFenster.focus();
+    }
+</script>
 
 </html>
