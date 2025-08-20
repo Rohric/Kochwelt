@@ -130,7 +130,6 @@ li {
 
 .transform{
     border: none;
-    cursor: pointer;
     transition: 700ms all ease-in-out;
   }
   
@@ -174,7 +173,7 @@ li {
   }
 }
 
-.button {
+.button-green {
   background-color: rgb(0, 113, 0);
   text-decoration: none;
   color: white;
