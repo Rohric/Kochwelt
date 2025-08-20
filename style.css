@@ -416,8 +416,8 @@ tr:nth-child(odd) {
   }
 
   .padding-left-right {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   .header_banner {
@@ -461,7 +461,7 @@ tr:nth-child(odd) {
     }
 
     input {
-      width: 112px;
+      width: 80px;
       padding-top: 8px;
       padding-bottom: 8px;
       font-size: 14px;
@@ -477,7 +477,8 @@ tr:nth-child(odd) {
   }
 
   td {
-    padding: 16px 30px;
+    padding: 12px 30px;
+    font-size: 14px;
   }
 
   tr:nth-child(odd) {
@@ -517,6 +518,5 @@ tr:nth-child(odd) {
   footer {
     margin-top: 20px;
     height: 280px;
-
   }
 }
