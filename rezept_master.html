@@ -1,163 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="./img/logo_small.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./img/logo_small.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Master Rezept</title>
-</head>
 
-<body>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </head>
+
+  <body>
     <!-- Header -->
     <div class="widescreen">
-        <header class="padding-left-right">
-            <nav>
-                <div class="nav-left">
-                    <a href="index.html">
-                    <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
-                </a>
-                </div>
-                <div class="nav-right">
-                    <ul>
-                        <li>
-                            <a class="header_li_a" href="index.html">Start</a>
-                        </li>
-                        <li>
-                            <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
-                        </li>
-                        <li>
-                            <a class="header_li_a" href="contactform.html"
-                            onclick="popupWindow(); return false;">Kontakt</a>                        </li>
-                        <li>
-                            <a class="header_li_a" href="">Impressum</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+      <header class="padding-left-right">
+        <nav>
+          <div class="nav-left">
+            <a href="index.html">
+              <img
+                class="header_banner"
+                src="./img/logo.png"
+                alt="Kochwelt logo"
+              />
+            </a>
+          </div>
+          <div class="nav-right">
+            <!-- Hidden checkbox toggles menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">☰</label>
+            <ul id="menu">
+              <li>
+                <a class="header_li_a" href="">Start</a>
+              </li>
+              <li>
+                <a class="header_li_a" href="">Rezept des Tages</a>
+              </li>
+              <li>
+                <a class="header_li_a" href="">Kontakt</a>
+              </li>
+              <li>
+                <a class="header_li_a" href="">Impressum</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     </div>
     <!-- head Article -->
     <div class="widescreen">
-        <main class="padding-left-right">
-            <article>
-                <section>
-                    <h1>Rezeptname</h1>
-                    <img class="recipe-img" src="./img/okroschka2.jpg" alt="">
-                    <div class="badge-list">
-                        <div class="badge">
-                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="">
-                            <span>20 min</span>
-                        </div>
-                        <div class="badge">
-                            <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="">
-                            <span>simpel</span>
-                        </div>
-                        <div class="badge">
-                            <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="">
-                            <span>18.08.2025</span>
-                        </div>
-                    </div>
-                </section>
+      <main class="padding-left-right">
+        <article>
+          <section>
+            <h1>Rezeptname</h1>
+            <img class="recipe-img" src="./img/okroschka2.jpg" alt="" />
+            <div class="badge-list">
+              <div class="badge">
+                <img
+                  class="badge-icon"
+                  src="./img/icons/clock-regular.svg"
+                  alt=""
+                />
+                <span>20 min</span>
+              </div>
+              <div class="badge">
+                <img
+                  class="badge-icon"
+                  src="./img/icons/brain-solid.svg"
+                  alt=""
+                />
+                <span>simpel</span>
+              </div>
+              <div class="badge">
+                <img
+                  class="badge-icon"
+                  src="./img/icons/calendar-alt-regular.svg"
+                  alt=""
+                />
+                <span>18.08.2025</span>
+              </div>
+            </div>
+          </section>
 
-                <!-- section Ingriedients -->
-                <hr>
+          <!-- section Ingriedients -->
+          <hr />
 
-                <section>
-                    <div class="servings">
-                        <span>Zutaten für </span>
-                        <input type="number" id="Portionen" value="4">
-                        <button>Portionen</button>
-                    </div>
+          <section>
+            <div class="servings">
+              <span>Zutaten für </span>
+              <input type="number" id="Portionen" value="4" />
+              <button>Portionen</button>
+            </div>
 
-                    <table>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                        <tr>
-                            <td>Zutaten</td>
-                        </tr>
-                    </table>
-                </section>
-                <!-- instructions -->
-                <section class="instructions">
-                    <h2>Zubereitung</h2>
-                    <div class="badge-list">
-                        <div class="badge">
-                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
-                            <span>ca. 15 Minuten</span>
-                        </div>
-                        <div class="badge">
-                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
-                            <span>Gesamtzeit ca. 15 Minuten</span>
-                        </div>
-                    </div>
-                    <p>
-                        Hier könnte euer Rezept stehen 🍲✨
-                        Probiert euch aus und schreibt eure Lieblingsideen hinein 😋
-                        Ein guter Tipp: Immer frische Zutaten nutzen 🌱
-                        Kocht mit Liebe, das schmeckt man sofort 💕
-                        Tricks für mehr Geschmack: Kräuter erst am Ende dazugeben 🌿
-                        Den Herd nie unbeaufsichtigt lassen 🔥😉
-                        Ein bisschen Experimentieren macht jedes Gericht spannend 🎨🍴
-                        Teilt euer Rezept mit Freunden, gemeinsam schmeckt’s doppelt so gut 👫🍽
-                        Vergesst nicht: Auch kleine Fehler sind leckere Erfahrungen 😅👌
-                        Also ran an die Töpfe – wir sind gespannt auf eure Kreationen 🎉👩‍🍳👨‍🍳
-                    </p>
-                </section>
+            <table>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+              <tr>
+                <td>Zutaten</td>
+              </tr>
+            </table>
+          </section>
+          <!-- instructions -->
+          <section class="instructions">
+            <h2>Zubereitung</h2>
+            <div class="badge-list">
+              <div class="badge">
+                <img
+                  class="badge-icon"
+                  src="./img/icons/clock-regular.svg"
+                  alt="benötigte Zeit"
+                />
+                <span>ca. 15 Minuten</span>
+              </div>
+              <div class="badge">
+                <img
+                  class="badge-icon"
+                  src="./img/icons/clock-regular.svg"
+                  alt="Gesamtzeit"
+                />
+                <span>Gesamtzeit ca. 15 Minuten</span>
+              </div>
+            </div>
+            <p>
+              Hier könnte euer Rezept stehen 🍲✨ Probiert euch aus und schreibt
+              eure Lieblingsideen hinein 😋 Ein guter Tipp: Immer frische
+              Zutaten nutzen 🌱 Kocht mit Liebe, das schmeckt man sofort 💕
+              Tricks für mehr Geschmack: Kräuter erst am Ende dazugeben 🌿 Den
+              Herd nie unbeaufsichtigt lassen 🔥😉 Ein bisschen Experimentieren
+              macht jedes Gericht spannend 🎨🍴 Teilt euer Rezept mit Freunden,
+              gemeinsam schmeckt’s doppelt so gut 👫🍽 Vergesst nicht: Auch
+              kleine Fehler sind leckere Erfahrungen 😅👌 Also ran an die Töpfe
+              – wir sind gespannt auf eure Kreationen 🎉👩‍🍳👨‍🍳
+            </p>
+          </section>
 
-                <!-- made from -->
-                <section class="made-from">
-                    <h3>Rezept erstellt von</h3>
-                    <figure>
-                        <img src="./img/profile.png" alt="Creator">
-                        <figcaption>Example</figcaption>
-                    </figure>
-                </section>
-            </article>
-        </main>
+          <!-- made from -->
+          <section class="made-from">
+            <h3>Rezept erstellt von</h3>
+            <figure>
+              <img src="./img/profile.png" alt="Creator" />
+              <figcaption>Example</figcaption>
+            </figure>
+          </section>
+        </article>
+      </main>
     </div>
     <div class="widescreen">
-        <footer>
-            
-        </footer>
+      <footer></footer>
     </div>
-</body>
+  </body>
+</html>

@@ -435,9 +435,36 @@ tr:nth-child(odd) {
         width: 200px;
     }
 
-    ul {
-        display: none;
+  .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-right .menu {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  .nav-right .menu a {
+    a {
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
     }
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+  }
 
     .recipe-img {
         height: 150px;
