@@ -1,111 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="./img/logo_small.png" />
-    <title>Master Rezept</title>
-  </head>
 
-  <body>
-    <!-- Header -->
-    <div class="widescreen">
-      <header class="padding-left-right">
-        <nav>
-          <div class="nav-left">
-            <a href="index.html">
-              <img
-                class="header_banner"
-                src="./img/logo.png"
-                alt="Kochwelt logo"
-              />
-            </a>
-          </div>
-          <div class="nav-right">
-            <button popovertarget="menu">
-              <img src="./img/icons/hamburger-menu.svg" alt="Burger Menu" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="./img/logo_small.png" />
+  <title>Master Rezept</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="widescreen">
+    <header class="padding-left-right">
+      <nav>
+        <div class="nav-left">
+          <a href="index.html">
+            <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo" />
+          </a>
+        </div>
+        <div class="nav-right">
+          <button popovertarget="menu">
+            <img src="./img/icons/hamburger-menu.svg" alt="Burger Menu" />
+          </button>
+
+          <div class="burger-menu" popover role="menu" id="menu">
+            <button popovertarget="menu" popovertargetaction="hide">
+              <img class="menu-cross" src="./img/icons/cross.svg" alt="Cross" />
             </button>
 
-            <div class="burger-menu" popover role="menu" id="menu">
-              <button popovertarget="menu" popovertargetaction="hide">
-                <img class="menu-cross" src="./img/icons/cross.svg" alt="Cross" />
-              </button>
-
-              <ul class="menu">
-                <li>
-                  <a href="">Start</a>
-                </li>
-                <li>
-                  <a href="">Rezept des Tages</a>
-                </li>
-                <li>
-                  <a href="">Kontakt</a>
-                </li>
-                <li>
-                  <a href="">Impressum</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="wide-menu">
+            <ul class="menu">
               <li>
-                <a class="header_li_a" href="">Start</a>
+                <a class="header_li_a" href="index.html">Start</a>
               </li>
               <li>
-                <a class="header_li_a" href="">Rezept des Tages</a>
+                <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
               </li>
               <li>
-                <a class="header_li_a" href="">Kontakt</a>
+                <a class="header_li_a" href="contactform.html" onclick="popupWindow(); return false;">Kontakt</a>
               </li>
               <li>
-                <a class="header_li_a" href="">Impressum</a>
+                <a class="header_li_a" href="impressum.html">Impressum</a>
               </li>
             </ul>
           </div>
-        </nav>
-      </header>
-    </div>
-    <!-- head Article -->
-    <div class="widescreen">
-      <main class="padding-left-right">
-        <article>
-          <section>
-            <h1>Rezeptname</h1>
-            <img class="recipe-img" src="./img/okroschka2.jpg" alt="" />
-            <div class="badge-list">
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/clock-regular.svg"
-                  alt=""
-                />
-                <span>20 min</span>
-              </div>
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/brain-solid.svg"
-                  alt=""
-                />
-                <span>simpel</span>
-              </div>
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/calendar-alt-regular.svg"
-                  alt=""
-                />
-                <span>18.08.2025</span>
-              </div>
+
+          <ul class="wide-menu">
+            <li>
+              <a class="header_li_a" href="">Start</a>
+            </li>
+            <li>
+              <a class="header_li_a" href="">Rezept des Tages</a>
+            </li>
+            <li>
+              <a class="header_li_a" href="">Kontakt</a>
+            </li>
+            <li>
+              <a class="header_li_a" href="">Impressum</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!-- head Article -->
+  <div class="widescreen">
+    <main class="padding-left-right">
+      <article>
+        <section>
+          <h1>Rezeptname</h1>
+          <img class="recipe-img" src="./img/okroschka2.jpg" alt="" />
+          <div class="badge-list">
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="" />
+              <span>20 min</span>
             </div>
-          </section>
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="" />
+              <span>simpel</span>
+            </div>
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="" />
+              <span>18.08.2025</span>
+            </div>
+          </div>
+        </section>
 
         <!-- section Ingriedients -->
         <hr />
