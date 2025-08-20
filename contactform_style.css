@@ -1,6 +1,6 @@
     body {
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
+      background-image: url(./img/contact-us/Kochwelt\ -\ Contact\ us\ -\ background.png);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -10,7 +10,9 @@
     }
 
     .contact-form {
-      background: #fff;
+      background-image: url(./img/contact-us/Kochwelt\ -\ Contact\ us\ -\ Sidepic.png);
+      /* background: #fff; */
+      background-size: cover;
       padding: 30px;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -21,7 +23,7 @@
     .contact-form h2 {
       margin-bottom: 20px;
       text-align: center;
-      color: #333;
+      color: #000000;
     }
 
     .form-group {
@@ -70,7 +72,7 @@
       display: block;
       text-align: center;
       margin-top: 15px;
-      color: rgb(0, 128, 0);
+      color: rgb(255, 255, 255);
       text-decoration: none;
     }
 
