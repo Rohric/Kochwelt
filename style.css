@@ -14,11 +14,7 @@ h3 {
 }
 
 .shadow-line {
-  border: 0px solid rgb(11, 9, 9);
-  height: 0.5px;
   box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
-  margin: 0;
-  width: auto;
 }
 
 main {
