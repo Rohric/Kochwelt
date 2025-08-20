@@ -190,15 +190,24 @@ li {
 
     .display {
         display: flex;
-        gap: 16px;
-
-        img {
-            width: 200px;
-            height: 200px;
-            /* object-fit: cover; */
-            border-radius: 8px;
-        }
+        align-items: center;     
+        gap: 80px;        
     }
+    
+    .display img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    
+    .text-block {
+        max-width: 600px;     
+        line-height: 1.6;      
+        text-align: justify;    
+        font-size: 16px;
+    }
+    
 }
 
 /* Footer */
@@ -263,7 +272,7 @@ a{
         color: green;
     }
     a:nth-child(3){
-        color: orange;
+        color:#FD5B4F;
     }
     
 }
