@@ -211,12 +211,6 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-
-    img {
-        height: 60px;
-        width: 60px;
-    }
 }
 .footer-logo{
     width: auto;
