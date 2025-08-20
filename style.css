@@ -112,6 +112,7 @@ nav {
 
   &:popover-open {
     translate: 0 0;
+
     @starting-style {
       translate: 100% 0;
     }
@@ -260,6 +261,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
   }
 
   .display img {
@@ -313,6 +315,7 @@ footer {
   a {
     text-decoration: none;
   }
+
   img {
     border-radius: 50%;
     height: 32px;
@@ -326,6 +329,7 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 8px;
+
   a {
     color: red;
   }
@@ -336,9 +340,11 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 8px;
+
   a {
     color: green;
   }
+
   a:nth-child(3) {
     color: #fd5b4f;
   }
@@ -472,7 +478,27 @@ tr:nth-child(odd) {
 
 /* @Media */
 
-@media (max-width: 994px) {
+@media (max-width: 960px) {
+  .wide-menu {
+    display: none;
+  }
+
+  nav {
+    button {
+      display: block;
+    }
+  }
+
+  .new-arrivals {
+    div {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Rezept XXXXXXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXXXXXXXXXX XXXXXXX */
   main {
     margin-top: 60px;
   }
@@ -501,15 +527,6 @@ tr:nth-child(odd) {
     width: 200px;
   }
 
-  nav {
-    button {
-      display: block;
-    }
-  }
-
-  .wide-menu {
-    display: none;
-  }
 
   ul {
     flex-direction: column;
@@ -623,4 +640,8 @@ tr:nth-child(odd) {
     margin-top: 20px;
     height: 280px;
   }
+
+  /* Index XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
 }
