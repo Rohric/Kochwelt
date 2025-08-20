@@ -11,22 +11,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="./img/logo_small.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <title>Master Rezept</title>
-
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-      }
-    </script>
   </head>
 
   <body>
@@ -44,10 +29,32 @@
             </a>
           </div>
           <div class="nav-right">
-            <!-- Hidden checkbox toggles menu -->
-            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-            <label for="menu-toggle" class="menu-icon">☰</label>
-            <ul id="menu">
+            <button popovertarget="menu">
+              <img src="./img/icons/hamburger-menu.svg" alt="Burger Menu" />
+            </button>
+
+            <div class="burger-menu" popover role="menu" id="menu">
+              <button popovertarget="menu" popovertargetaction="hide">
+                <img class="menu-cross" src="./img/icons/cross.svg" alt="Cross" />
+              </button>
+
+              <ul class="menu">
+                <li>
+                  <a href="">Start</a>
+                </li>
+                <li>
+                  <a href="">Rezept des Tages</a>
+                </li>
+                <li>
+                  <a href="">Kontakt</a>
+                </li>
+                <li>
+                  <a href="">Impressum</a>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="wide-menu">
               <li>
                 <a class="header_li_a" href="">Start</a>
               </li>
