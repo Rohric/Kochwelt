@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./img/logo_small.png">
+    <title>Master Rezept</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="widescreen">
+        <header class="padding-left-right">
+            <nav>
+                <div class="nav-left">
+                    <a href="index.html">
+                    <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
+                </a>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li>
+                            <a class="header_li_a" href="index.html">Start</a>
+                        </li>
+                        <li>
+                          <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
+                        </li>
+                        <li>
+                          <a class="header_li_a" href="contactform.html"
+                          onclick="popupWindow(); return false;">Kontakt</a>                        </li>
+                        <li>
+                            <a class="header_li_a" href="">Impressum</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!-- head Article -->
+    <div class="widescreen">
+        <main class="padding-left-right">
+            <article>
+                <section>
+                  <h1>Spaghetti Aglio e Olio</h1>
+                  <img class="recipe-img" src="./img/aglio-e-olio.png" alt="Spaghetti Aglio e Olio – Pasta mit Knoblauch, Chili und Olivenöl">
+                  <div class="badge-list">
+                    <div class="badge">
+                      <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Zeit">
+                      <span>20 Min</span>
+                    </div>
+                    <div class="badge">
+                      <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="Schwierigkeitsgrad">
+                      <span>simpel</span>
+                    </div>
+                    <div class="badge">
+                      <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="Datum">
+                      <span>20.08.2025</span>
+                    </div>
+                  </div>
+                </section>
+              
+                <!-- section Ingredients -->
+                <hr>
+              
+                <section>
+                  <div class="servings">
+                    <span>Zutaten für </span>
+                    <input type="number" id="Portionen" value="4" min="1">
+                    <button type="button">Portionen</button>
+                  </div>
+              
+                  <table class="emil_ingredients_table">
+                    <tr><td>400 g Spaghetti</td></tr>
+                    <tr><td>4–5 Knoblauchzehen, fein geschnitten</td></tr>
+                    <tr><td>1 rote Chili (oder ½ TL Chiliflocken)</td></tr>
+                    <tr><td>80 ml gutes Olivenöl</td></tr>
+                    <tr><td>1 Bund glatte Petersilie, grob gehackt</td></tr>
+                    <tr><td>½ Zitrone, Abrieb</td></tr>
+                    <tr><td>Salz & schwarzer Pfeffer</td></tr>
+                    <tr><td>Optional: frisch geriebener Parmesan</td></tr>
+                  </table>
+                </section>
+              
+                <!-- instructions -->
+                <section class="instructions">
+                  <h2>Zubereitung</h2>
+                  <div class="badge-list">
+                    <div class="badge">
+                      <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
+                      <span>ca. 15–20 Minuten</span>
+                    </div>
+                    <div class="badge">
+                      <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
+                      <span>Gesamtzeit ca. 20 Minuten</span>
+                    </div>
+                  </div>
+              
+                  <ol class="steps">
+                    <li>Spaghetti in gut gesalzenem Wasser al dente kochen. 1 Tasse Nudelwasser aufheben.</li>
+                    <li>Währenddessen Olivenöl bei mittlerer Hitze erwärmen, Knoblauch und Chili 1–2 Minuten sanft anschwitzen (nicht bräunen).</li>
+                    <li>Nudeln abgießen, in die Pfanne geben, Petersilie und Zitronenabrieb zufügen. Mit etwas Nudelwasser „emulgieren“, bis die Pasta glänzt.</li>
+                    <li>Mit Salz & Pfeffer abschmecken. Optional Parmesan darüber – sofort servieren.</li>
+                  </ol>
+                </section>
+              
+                <!-- made from -->
+                <section class="made-from">
+                  <h3>Rezept erstellt von</h3>
+                  <figure>
+                    <img src="./img/profile.png" alt="Creator">
+                    <figcaption>Emil Marsal</figcaption>
+                  </figure>
+                </section>
+              </article>
+              
+        </main>
+    </div>
+    <div class="widescreen">
+      <footer>
+
+          <div class="footer-logo">
+              <span class="footer-logo-text">Kochwelt</span>
+          </div>
+
+          <div class="footer-end">
+              <div class="footer-end-left">
+                  <p>Emil</p>
+                  <p>Nam </p>
+                  <p>Christian </p>
+                  <a href="">Insta</a>
+                  <a href="">Youtube</a>
+              </div>
+              <div class="footer-end-right">
+                  <a href="">Impressum</a>
+                  <a href="">datenschutz</a>
+                  <p>by Developer Akademie</p>
+              </div>
+          </div>
+
+      </footer>
+  </div>
+</body>
+
+<script>
+function popupWindow () {
+var kontaktFenster = window.open("contactform.html", "Kontaktformular", "width=800,height=800,right=300,top=500");
+kontaktFenster.focus();
+}
+</script>
+
+</html>
+</body>
