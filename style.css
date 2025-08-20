@@ -191,7 +191,7 @@ li {
     .display {
         display: flex;
         align-items: center;     
-        gap: 80px;        
+        justify-content: space-between;     
     }
     
     .display img {

@@ -23,11 +23,17 @@
     .contact-form h2 {
       margin-bottom: 20px;
       text-align: center;
-      color: #000000;
+      color: #333;
     }
 
     .form-group {
       margin-bottom: 15px;
+    }
+    input{
+      background-color:rgba(128, 128, 128, 0.2)
+    }
+    textarea{
+      background-color:rgba(128, 128, 128, 0.2)
     }
 
     .form-group label {
@@ -73,7 +79,7 @@
       text-align: center;
       margin-top: 15px;
       color: rgb(255, 255, 255);
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     .back-link:hover {
