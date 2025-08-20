@@ -41,6 +41,11 @@ h3 {
     padding-right: 100px;
 }
 
+.widescreen {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 
 /* Navigation */

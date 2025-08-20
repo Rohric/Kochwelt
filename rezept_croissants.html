@@ -15,129 +15,135 @@
 
 <body>
     <!-- Header -->
-    <header class="padding-left-right">
-        <nav>
-            <a href="index.html">
-                <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
-            </a>
-            <ul>
-                <li>
-                    <a class="header_li_a" href="">Start</a>
-                </li>
-                <li>
-                    <a class="header_li_a" href="">Rezept des Tages</a>
-                </li>
-                <li>
-                    <a class="header_li_a" href="">Kontakt</a>
-                </li>
-                <li>
-                    <a class="header_li_a" href="">Impressum</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="widescreen">
+        <header class="padding-left-right">
+            <nav>
+                <a href="index.html">
+                    <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
+                </a>
+                <ul>
+                    <li>
+                        <a class="header_li_a" href="">Start</a>
+                    </li>
+                    <li>
+                        <a class="header_li_a" href="">Rezept des Tages</a>
+                    </li>
+                    <li>
+                        <a class="header_li_a" href="">Kontakt</a>
+                    </li>
+                    <li>
+                        <a class="header_li_a" href="">Impressum</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <!-- head Article -->
-    <main class="padding-left-right">
-        <article>
-            <section>
-                <h1>Französische Croissants</h1>
-                <img class="recipe-img" src="./img/croissant.jpg" alt="croissant">
-                <div class="badge-list">
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="clock">
-                        <span>20 min</span>
+    <div class="widescreen">
+        <main class="padding-left-right">
+            <article>
+                <section>
+                    <h1>Französische Croissants</h1>
+                    <img class="recipe-img" src="./img/croissant.jpg" alt="croissant">
+                    <div class="badge-list">
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="clock">
+                            <span>20 min</span>
+                        </div>
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="brain">
+                            <span>simpel</span>
+                        </div>
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="calender">
+                            <span>18.08.2025</span>
+                        </div>
                     </div>
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="brain">
-                        <span>simpel</span>
+                </section>
+
+                <!-- section Ingriedients -->
+                <hr>
+
+                <section>
+                    <div class="servings">
+                        <span>Zutaten für </span>
+                        <input type="number" id="Portionen" value="4">
+                        <button>Portionen</button>
                     </div>
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="calender">
-                        <span>18.08.2025</span>
+
+                    <table>
+                        <tr>
+                            <td>500g Mehl</td>
+                        </tr>
+                        <tr>
+                            <td>50g Zucker</td>
+                        </tr>
+                        <tr>
+                            <td>20g frische Hefe</td>
+                        </tr>
+                        <tr>
+                            <td>10g Salz</td>
+                        </tr>
+                        <tr>
+                            <td>250g Butter</td>
+                        </tr>
+                        <tr>
+                            <td>310-320ml Wasser</td>
+                        </tr>
+                    </table>
+                </section>
+                <!-- instructions -->
+                <section class="instructions">
+                    <h2>Zubereitung</h2>
+                    <div class="badge-list">
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
+                            <span>ca. 15 Minuten</span>
+                        </div>
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
+                            <span>Gesamtzeit ca. 15 Minuten</span>
+                        </div>
                     </div>
-                </div>
-            </section>
+                    <p>
+                        Die Hefe in das Wasser zerkrümeln und rühren, bis sie sich komplett aufgelöst hat. Das Mehl mit dem Zucker und dem Salz umrühren und dann das Hefe-Wasser dazu geben.
+                        Das Ganze richtig rühren und am Ende mit den Händen kneten, wie ein Brot. Den Teig in einer Schüssel lassen, mit etwas Mehl bestäuben und einem feuchten Tuch abdecken und 30 Minuten im Kühlschrank lassen.
+                        Nach 30 Minuten ist der Teig aufgegangen. 250g Butter auf ein großes Stück Backpapier legen. Das Backpapier um die Butter zusammen falten so dass man ein Quadrat bekommt.
+                        Jetzt nicht unvorsichtig mit der Teigrolle draufhauen und ausrollen, bis die Butter sich in die quadratische Form gleichmäßig aufgeteilt hat. 
+                        Dann geht die Butter ebenfalls für 20 Minuten in den Kühlschrank zum abkühlen und wird dann gleichzeitig mit dem Teig herausgenommen. 
+                        Wenn die Butter aus dem Kühlschrank herauskommt, sollte sie hart sein. Nun nehmen wir dann das Backpapier weg. Es sollte ein schönes Viereck formen. Jetzt geht es zur Bastelarbeit und wie man es in Frankreich sagt "Tour" (Runde) geben. Die Faltenarbeit das Blätterteigs fängt jetzt an!
+                        Auf eine mit Mehl bestreute Arbeitsfläche den Teig platzieren, und zu einem langen Viereck ausrollen. Auf die obere Hälfte des Vierecks, die Butter platzieren. Der Teig muss Doppel so hoch wie die Butter sein!
+                        Dann mit einem Brotstreicher, einer Bürste oder etwas Ähnliches, das übrige Mehl vom Teig befreien. Bitte hier kein Tuch nehmen, weil es nicht genug Mehl wegnimmt! und dann den Boden auf die Butter zuklappen.
+                        Den Teig jetzt eine Vierteldrehung geben und ihn mit dem Nudelholz wie vorhin ausbreiteten. Und jetzt fängt die erste „Tour“ an, also das Zusammenfalten N°1. Den Teig in 3 falten, ein bisschen wie ein Brief. Das obere Drittel auf die Mitte, und dann das untere Drittel ebenfalls auf die Mitte falten.
+                        So bekommt jetzt die erste „Tour“ einen Punkt, sodass man sich erinnert welche Tour dran war, und in welcher Position der Teig ausgerollt wurde.
+                        Den Teig wird jetzt in Backpapier eingewickelt und geht für 30 bis 40 Minuten in den Kühlschrank (oder Tiefkühlschrank, wenn man es schneller machen möchten)
+                        Aus dem Kühlschrank heraus wird der Teig jetzt senkrecht platzieren und wieder ausgebreitet. Ihr müsst immer darauf achten, bei jeder Tour, dem Teig eine Vierteldrehung zu geben.
+                        Hier fängt die 2. Tour an: den Teig in die Länge ausbreiten, und mit einer Bürste das übrige Mehl wegnehmen.
+                        Wieder das obere Drittel auf die Mitte falten. Das übrige Mehl von der Mitte wegnehmen und dann das untere Drittel auf die Mitte zusammenklappen.
+                        Die 2. Tour ist fertig und der Teig wird wieder in Backpapier eingewickelt und geht wieder für 30 bis 45 Minuten in den Kühlschrank.
+                        Die 3. Tour wird genauso wie die anderen, eine Vierteldrehung geben, in die Länge ausbreiten, Mehl wegbürsten und zusammenfalten. Dann wieder in den Kühlschrank für 30 bis 45 Minuten platzieren.
+                        Jetzt noch eine letzte 4. Tour geben: eine Vierteldrehung geben, in die Länge ausbreiten, Mehl weg bürsten und zusammenfalten.  Wer Lust hat, kann bis 6 Tours geben, aber den Teig wird immer fester beim Ausrollen.
+                        Den Teig ein letztes Mal ausrollen und die Croissants ausschneiden. Die sehen fast aus wie kleine Eiffeltürmchen! An diese Stellen kommen auch die Stückchen Schokolade in die Croissants!
+                        Die Croissants zusammen rollen, auf ein mit Backpapier bedecktes Backblech platzieren. Ein feuchtes Tuch darüber platzieren und mind. 30 Minuten gehen lassen. Die Croissants mit einer Mischung aus 1 Eigelb und 3 EL Milch pinseln.
+                        Die Croissants in den vorgeheizten Backofen schieben und 25 Minuten lang bei 190°C Umluft backen.
 
-            <!-- section Ingriedients -->
-            <hr>
+                    </p>
+                </section>
 
-            <section>
-                <div class="servings">
-                    <span>Zutaten für </span>
-                    <input type="number" id="Portionen" value="4">
-                    <button>Portionen</button>
-                </div>
-
-                <table>
-                    <tr>
-                        <td>500g Mehl</td>
-                    </tr>
-                    <tr>
-                        <td>50g Zucker</td>
-                    </tr>
-                    <tr>
-                        <td>20g frische Hefe</td>
-                    </tr>
-                    <tr>
-                        <td>10g Salz</td>
-                    </tr>
-                    <tr>
-                        <td>250g Butter</td>
-                    </tr>
-                    <tr>
-                        <td>310-320ml Wasser</td>
-                    </tr>
-                </table>
-            </section>
-            <!-- instructions -->
-            <section class="instructions">
-                <h2>Zubereitung</h2>
-                <div class="badge-list">
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
-                        <span>ca. 15 Minuten</span>
-                    </div>
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
-                        <span>Gesamtzeit ca. 15 Minuten</span>
-                    </div>
-                </div>
-                <p>
-                    Die Hefe in das Wasser zerkrümeln und rühren, bis sie sich komplett aufgelöst hat. Das Mehl mit dem Zucker und dem Salz umrühren und dann das Hefe-Wasser dazu geben.
-                    Das Ganze richtig rühren und am Ende mit den Händen kneten, wie ein Brot. Den Teig in einer Schüssel lassen, mit etwas Mehl bestäuben und einem feuchten Tuch abdecken und 30 Minuten im Kühlschrank lassen.
-                    Nach 30 Minuten ist der Teig aufgegangen. 250g Butter auf ein großes Stück Backpapier legen. Das Backpapier um die Butter zusammen falten so dass man ein Quadrat bekommt.
-                    Jetzt nicht unvorsichtig mit der Teigrolle draufhauen und ausrollen, bis die Butter sich in die quadratische Form gleichmäßig aufgeteilt hat. 
-                    Dann geht die Butter ebenfalls für 20 Minuten in den Kühlschrank zum abkühlen und wird dann gleichzeitig mit dem Teig herausgenommen. 
-                    Wenn die Butter aus dem Kühlschrank herauskommt, sollte sie hart sein. Nun nehmen wir dann das Backpapier weg. Es sollte ein schönes Viereck formen. Jetzt geht es zur Bastelarbeit und wie man es in Frankreich sagt "Tour" (Runde) geben. Die Faltenarbeit das Blätterteigs fängt jetzt an!
-                    Auf eine mit Mehl bestreute Arbeitsfläche den Teig platzieren, und zu einem langen Viereck ausrollen. Auf die obere Hälfte des Vierecks, die Butter platzieren. Der Teig muss Doppel so hoch wie die Butter sein!
-                    Dann mit einem Brotstreicher, einer Bürste oder etwas Ähnliches, das übrige Mehl vom Teig befreien. Bitte hier kein Tuch nehmen, weil es nicht genug Mehl wegnimmt! und dann den Boden auf die Butter zuklappen.
-                    Den Teig jetzt eine Vierteldrehung geben und ihn mit dem Nudelholz wie vorhin ausbreiteten. Und jetzt fängt die erste „Tour“ an, also das Zusammenfalten N°1. Den Teig in 3 falten, ein bisschen wie ein Brief. Das obere Drittel auf die Mitte, und dann das untere Drittel ebenfalls auf die Mitte falten.
-                    So bekommt jetzt die erste „Tour“ einen Punkt, sodass man sich erinnert welche Tour dran war, und in welcher Position der Teig ausgerollt wurde.
-                    Den Teig wird jetzt in Backpapier eingewickelt und geht für 30 bis 40 Minuten in den Kühlschrank (oder Tiefkühlschrank, wenn man es schneller machen möchten)
-                    Aus dem Kühlschrank heraus wird der Teig jetzt senkrecht platzieren und wieder ausgebreitet. Ihr müsst immer darauf achten, bei jeder Tour, dem Teig eine Vierteldrehung zu geben.
-                    Hier fängt die 2. Tour an: den Teig in die Länge ausbreiten, und mit einer Bürste das übrige Mehl wegnehmen.
-                    Wieder das obere Drittel auf die Mitte falten. Das übrige Mehl von der Mitte wegnehmen und dann das untere Drittel auf die Mitte zusammenklappen.
-                    Die 2. Tour ist fertig und der Teig wird wieder in Backpapier eingewickelt und geht wieder für 30 bis 45 Minuten in den Kühlschrank.
-                    Die 3. Tour wird genauso wie die anderen, eine Vierteldrehung geben, in die Länge ausbreiten, Mehl wegbürsten und zusammenfalten. Dann wieder in den Kühlschrank für 30 bis 45 Minuten platzieren.
-                    Jetzt noch eine letzte 4. Tour geben: eine Vierteldrehung geben, in die Länge ausbreiten, Mehl weg bürsten und zusammenfalten.  Wer Lust hat, kann bis 6 Tours geben, aber den Teig wird immer fester beim Ausrollen.
-                    Den Teig ein letztes Mal ausrollen und die Croissants ausschneiden. Die sehen fast aus wie kleine Eiffeltürmchen! An diese Stellen kommen auch die Stückchen Schokolade in die Croissants!
-                    Die Croissants zusammen rollen, auf ein mit Backpapier bedecktes Backblech platzieren. Ein feuchtes Tuch darüber platzieren und mind. 30 Minuten gehen lassen. Die Croissants mit einer Mischung aus 1 Eigelb und 3 EL Milch pinseln.
-                    Die Croissants in den vorgeheizten Backofen schieben und 25 Minuten lang bei 190°C Umluft backen.
-
-                </p>
-            </section>
-
-            <!-- made from -->
-            <section class="made-from">
-                <h3>Rezept erstellt von</h3>
-                <figure>
-                    <img src="./img/profile.png" alt="personality-logo">
-                    <figcaption>Christian</figcaption>
-                </figure>
-            </section>
-        </article>
-    </main>
-    <footer>
-        
-    </footer>
+                <!-- made from -->
+                <section class="made-from">
+                    <h3>Rezept erstellt von</h3>
+                    <figure>
+                        <img src="./img/profile.png" alt="personality-logo">
+                        <figcaption>Christian</figcaption>
+                    </figure>
+                </section>
+            </article>
+        </main>
+    </div>
+    <div class="widescreen">
+        <footer>
+            
+        </footer>
+    </div>
 </body>

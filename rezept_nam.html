@@ -15,123 +15,130 @@
 
 <body>
     <!-- Header -->
-    <header class="padding-left-right">
-        <nav>
-            <div class="nav-left">
-                <a href="index.html">
-                <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
-            </a>
-            </div>
-            <div class="nav-right">
-                <ul>
-                    <li>
-                        <a class="header_li_a" href="">Start</a>
-                    </li>
-                    <li>
-                        <a class="header_li_a" href="">Rezept des Tages</a>
-                    </li>
-                    <li>
-                        <a class="header_li_a" href="">Kontakt</a>
-                    </li>
-                    <li>
-                        <a class="header_li_a" href="">Impressum</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="widescreen">
+        <header class="padding-left-right">
+            <nav>
+                <div class="nav-left">
+                    <a href="index.html">
+                    <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo">
+                </a>
+                </div>
+                <div class="nav-right">
+                    <ul>
+                        <li>
+                            <a class="header_li_a" href="">Start</a>
+                        </li>
+                        <li>
+                            <a class="header_li_a" href="">Rezept des Tages</a>
+                        </li>
+                        <li>
+                            <a class="header_li_a" href="">Kontakt</a>
+                        </li>
+                        <li>
+                            <a class="header_li_a" href="">Impressum</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
     <!-- head Article -->
-    <main class="padding-left-right">
-        <article>
-            <section>
-                <h1>Spinat Nudelauflauf</h1>
-                <img class="recipe-img" src="./img/spinat-nudelauflauf.jpg" alt="spinat nudelauflauf">
-                <div class="badge-list">
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="">
-                        <span>20 min</span>
+    <div class="widescreen">
+        <main class="padding-left-right">
+            <article>
+                <section>
+                    <h1>Spinat Nudelauflauf</h1>
+                    <img class="recipe-img" src="./img/spinat-nudelauflauf.jpg" alt="spinat nudelauflauf">
+                    <div class="badge-list">
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="">
+                            <span>20 min</span>
+                        </div>
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="">
+                            <span>simpel</span>
+                        </div>
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="">
+                            <span>18.08.2025</span>
+                        </div>
                     </div>
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="">
-                        <span>simpel</span>
+                </section>
+
+                <!-- section Ingriedients -->
+                <hr>
+
+                <section>
+                    <div class="servings">
+                        <span>Zutaten für </span>
+                        <input type="number" name="Portionen" id="Portionen">
+                        <button>Portionen</button>
                     </div>
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="">
-                        <span>18.08.2025</span>
+
+                    <table>
+                        <tr>
+                            <td>250g Nudeln</td>
+                        </tr>
+                        <tr>
+                            <td>500g Hackfleisch</td>
+                        </tr>
+                        <tr>
+                            <td>450g Rahmspinat</td>
+                        </tr>
+                        <tr>
+                            <td>2 Zwibeln</td>
+                        </tr>
+                        <tr>
+                            <td>1 Knoblauchzehen</td>
+                        </tr>
+                        <tr>
+                            <td>1 Gemüsebrühwürfel</td>
+                        </tr>
+                        <tr>
+                            <td>100ml Sahne</td>
+                        </tr>
+                        <tr>
+                            <td>Salz und Pfeffer</td>
+                        </tr>
+                    </table>
+                </section>
+                <!-- instructions -->
+                <section class="instructions">
+                    <h2>Zubereitung</h2>
+                    <div class="badge-list">
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
+                            <span>ca. 20 Minuten</span>
+                        </div>
+                        <div class="badge">
+                            <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
+                            <span>Gesamtzeit ca. 20 Minuten</span>
+                        </div>
                     </div>
-                </div>
-            </section>
+                    <p>
+                        Braten Sie das Hackfleisch an, danach geben sie die Zwiebeln und die Knoblauchzehe dazu und würzen mit Salz und Pfeffer. Überstreuen sie die Masse mit einem kleingebröselten Brühwürfel. Das Ganze dann durchbraten. In der Zwischenzeit die Nudeln kochen.
 
-            <!-- section Ingriedients -->
-            <hr>
+                        Sobald die Hackfleischmasse durchgebraten ist, verteilen Sie den noch gefrorenen Spinat darauf und lassen ihn bei geringer Wärmezufuhr auftauen.
 
-            <section>
-                <div class="servings">
-                    <span>Zutaten für </span>
-                    <input type="number" name="Portionen" id="Portionen">
-                    <button>Portionen</button>
-                </div>
+                        Wenn der Spinat aufgetaut ist, vermischen Sie alles mit etwas Milch und den Nudeln, geben es in eine Auflaufform, gießen die Sahne darüber, bestreuen den Auflauf mit Käse und überbacken ihn 10 Minuten bei 180°C.
+                    </p>
+                </section>
 
-                <table>
-                    <tr>
-                        <td>250g Nudeln</td>
-                    </tr>
-                    <tr>
-                        <td>500g Hackfleisch</td>
-                    </tr>
-                    <tr>
-                        <td>450g Rahmspinat</td>
-                    </tr>
-                    <tr>
-                        <td>2 Zwibeln</td>
-                    </tr>
-                    <tr>
-                        <td>1 Knoblauchzehen</td>
-                    </tr>
-                    <tr>
-                        <td>1 Gemüsebrühwürfel</td>
-                    </tr>
-                    <tr>
-                        <td>100ml Sahne</td>
-                    </tr>
-                    <tr>
-                        <td>Salz und Pfeffer</td>
-                    </tr>
-                </table>
-            </section>
-            <!-- instructions -->
-            <section class="instructions">
-                <h2>Zubereitung</h2>
-                <div class="badge-list">
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit">
-                        <span>ca. 20 Minuten</span>
-                    </div>
-                    <div class="badge">
-                        <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit">
-                        <span>Gesamtzeit ca. 20 Minuten</span>
-                    </div>
-                </div>
-                <p>
-                    Braten Sie das Hackfleisch an, danach geben sie die Zwiebeln und die Knoblauchzehe dazu und würzen mit Salz und Pfeffer. Überstreuen sie die Masse mit einem kleingebröselten Brühwürfel. Das Ganze dann durchbraten. In der Zwischenzeit die Nudeln kochen.
+                <!-- made from -->
+                <section class="made-from">
+                    <h3>Rezept erstellt von</h3>
+                    <figure>
+                        <img src="./img/pic_nam.png" alt="Creator">
+                        <figcaption>Nam</figcaption>
+                    </figure>
+                </section>
+            </article>
+        </main>
+    </div>
 
-                    Sobald die Hackfleischmasse durchgebraten ist, verteilen Sie den noch gefrorenen Spinat darauf und lassen ihn bei geringer Wärmezufuhr auftauen.
-
-                    Wenn der Spinat aufgetaut ist, vermischen Sie alles mit etwas Milch und den Nudeln, geben es in eine Auflaufform, gießen die Sahne darüber, bestreuen den Auflauf mit Käse und überbacken ihn 10 Minuten bei 180°C.
-                </p>
-            </section>
-
-            <!-- made from -->
-            <section class="made-from">
-                <h3>Rezept erstellt von</h3>
-                <figure>
-                    <img src="./img/pic_nam.png" alt="Creator">
-                    <figcaption>Nam</figcaption>
-                </figure>
-            </section>
-        </article>
-    </main>
-    <footer>
-        
-    </footer>
+    <div class="widescreen">
+        <footer>
+            
+        </footer>
+    </div>
 </body>
