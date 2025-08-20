@@ -2,90 +2,88 @@
 h1,
 h2,
 h3 {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /* Global */
 
 * {
-    font-family: "Raleway";
-    margin: 0;
+  font-family: "Raleway";
+  margin: 0;
 }
 
 header {
-    box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
+  box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
 }
 
 main {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 h2 {
-    font-size: 22px;
-    font-weight: 500;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 h3 {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .padding-left-right {
-    padding-left: 100px;
-    padding-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .widescreen {
-    max-width: 1440px;
-    margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-
-
 
 /* Navigation */
 
 nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+  .nav-right {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: end;
+    width: 100%;
+  }
 
-    .nav-right {
-        display: flex;
-        justify-content: end;
-        align-items: end;
-        width: 100%;
-    }
-
-    .header_li_a {
+  .header_li_a {
     color: black;
     font-size: 16px;
     text-decoration: none;
-    }
+  }
 
-    li:hover {
-        .header_li_a {
-            color: rgb(0 128 0);
-        }
-    border-bottom: solid rgb(0 128 0);
+  li:hover {
+    .header_li_a {
+      color: rgb(0 128 0);
     }
+    border-bottom: solid rgb(0 128 0);
+  }
 }
 
 ul {
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
 }
 
 li {
-    padding-bottom: 8px;
-    text-decoration: none;
-    border-bottom: solid white;
+  padding-bottom: 8px;
+  text-decoration: none;
+  border-bottom: solid white;
 }
 
 /* Wiederverwendbar */
@@ -93,311 +91,432 @@ li {
 /* Index.html*/
 
 .header_banner {
-    width: 300px;
+  width: 300px;
 }
 
 /* Französisches Croissants */
 
 .topmenu {
-    display: flex;
-    justify-content: center;
-    margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
 }
 
 .topmenu-img {
-    width: 400px;
-    border-radius: 8px;
+  width: 400px;
+  border-radius: 8px;
 }
 
 .topmenu-text {
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
 }
 
 .topmenu-text {
-    h2 {
-        margin-bottom: 26px;
-    }
-    
-    span {
-        font-weight: 350;
-    }
+  h2 {
+    margin-bottom: 26px;
+  }
+
+  span {
+    font-weight: 350;
+  }
 }
 
 .button {
-    background-color: rgb(0, 113, 0);
-    text-decoration: none;
-    color: white;
-    padding: 10px 50px 10px 50px;
+  background-color: rgb(0, 113, 0);
+  text-decoration: none;
+  color: white;
+  padding: 10px 50px 10px 50px;
 }
 
 .mr-20 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 /* section new_arrivals */
 .new-arrivals {
-    margin-top: 120px;
-    background-color: #EFEFEF;
-    text-align: center;
+  margin-top: 120px;
+  background-color: #efefef;
+  text-align: center;
 
-    h2 {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        font-weight: bold;
+  h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 32px;
+
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 20px;
     }
 
-    div {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        padding-bottom: 32px;
-
-
-        img {
-            height: 200px;
-            width: 200px;
-            border-radius: 20px;
-        }
-
-        .figure {
-            display: flex;
-            flex-direction: row;
-        }
-
-        figcaption {
-            font-weight: 500;
-            text-align: center;
-            color: black;
-            font-size: 16px;
-
-        }
-
-        a {
-            text-decoration: none;
-            padding-bottom: 40px;
-
-        }
+    .figure {
+      display: flex;
+      flex-direction: row;
     }
+
+    figcaption {
+      font-weight: 500;
+      text-align: center;
+      color: black;
+      font-size: 16px;
+    }
+
+    a {
+      text-decoration: none;
+      padding-bottom: 40px;
+    }
+  }
 }
 
 /* Footer */
 
 footer {
-    margin-top: 120px;
-    background-color: rgb(64 59 59);
-    height: 280px;
+  margin-top: 120px;
+  background-color: rgb(64 59 59);
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+  figure {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    align-items: center;
+    gap: 24px;
+  }
 
-    figure {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-    }
-
-    img {
-        height: 60px;
-        width: 60px;
-    }
+  img {
+    height: 60px;
+    width: 60px;
+  }
 }
-.footer-left{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-evenly;
-    gap: 12px;
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 12px;
 }
-.creator{
-    justify-content: space-between;
-    gap: 16px;
+.creator {
+  justify-content: space-between;
+  gap: 16px;
 }
-
 
 /* section pfanne-wok */
 
 .pfanne-wok {
-    h2 {
-        text-align: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-    
-    .display {
-        display: flex;
-        gap: 16px;
+  h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
-        img {
-            width: 200px;
-            height: 200px;
-            /* object-fit: cover; */
-            border-radius: 8px;
-        }
+  .display {
+    display: flex;
+    gap: 16px;
+
+    img {
+      width: 200px;
+      height: 200px;
+      /* object-fit: cover; */
+      border-radius: 8px;
     }
+  }
 }
 
-/* RezeptSeite */
+/* RezeptSeite XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
 /* head article */
 
 .recipe-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .badge-list {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .badge {
-    display: flex;
-    gap: 12px;
-    background-color: rgb(239 239 239);
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: 100;
-    color: rgb(0, 0, 0);
-    padding: 4px 12px;
-    align-items: center;
+  display: flex;
+  gap: 12px;
+  background-color: rgb(239 239 239);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  padding: 4px 12px;
+  align-items: center;
 }
 
 .badge-icon {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 hr {
-    width: 100%;
-    color: rgb(239 239 239 0.1);
-    margin-top: 72px;
-    margin-bottom: 12px;
+  width: 100%;
+  color: rgb(239 239 239 0.1);
+  margin-top: 72px;
+  margin-bottom: 12px;
 }
 
 /* section Ingriedients */
 
 .servings {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    span {
-        font-size: 18px;
-        font-weight: 100;
-        margin-right: 16px;
-    }
+  span {
+    font-size: 18px;
+    font-weight: 100;
+    margin-right: 16px;
+  }
 
-    input {
-        width: 152px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        border: 1px solid rgb(0 0 0 / 0.1);
-        border-right: none;
-        border-radius: 5px 0 0 5px;
-        font-size: 16px;
-    }
+  input {
+    width: 152px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+  }
 
-    button {
-        background-color: rgb(0 128 0);
-        color: white;
-        font-size: 18px;
-        border: none;
-        padding-top: 12px;
-        padding-right: 48px;
-        padding-bottom: 12px;
-        padding-left: 48px;
-    }
+  button {
+    background-color: rgb(0 128 0);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding-top: 12px;
+    padding-right: 48px;
+    padding-bottom: 12px;
+    padding-left: 48px;
+  }
 }
 
 table {
-    margin-top: 12px;
-    margin-bottom: 24px;
-    width: 100%;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  width: 100%;
 }
 
 tr {
-    width: 100%;
-    font-weight: 100;
+  width: 100%;
+  font-weight: 100;
 }
 
 td {
-    font-size: 16px;
-    padding: 20px 40px;
-    font-weight: 100;
-    border-radius: 8px;
+  font-size: 16px;
+  padding: 20px 40px;
+  font-weight: 100;
+  border-radius: 8px;
 }
 
 tr:nth-child(odd) {
-    background-color: rgb(239 239 239);
+  background-color: rgb(239 239 239);
 }
 
 /* instructions */
 
 .instructions {
-    .badge-list {
-        margin-top: 18px;
-        margin-bottom: 24px;
-    }
+  .badge-list {
+    margin-top: 18px;
+    margin-bottom: 24px;
+  }
 
-    p {
-        font-size: 16px;
-        font-weight: 100;
-        margin-top: 40px;
-    }
+  p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 40px;
+  }
 }
 
 /* made from */
 
 .made-from {
-    margin-top: 28px;
-    margin-bottom: 80px;
+  margin-top: 28px;
+  margin-bottom: 80px;
 
-    figure {
-        margin-top: 16px;
-        display: flex;
-        align-items: center;
-        gap: 24px;
-        font-size: 24px;
-        font-weight: 100;
-    }
+  figure {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 24px;
+    font-weight: 100;
+  }
 
-    img {
-        height: 72px;
-        aspect-ratio: 1 / 1;
-        object-fit: cover;
-        border-radius: 50%;
-    }
+  img {
+    height: 72px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+  }
 }
 
 /* Contact-us */
 
-.contact-us{
-    background-image:url(./img/contact-us/Kochwelt\ -\ Contact\ us\ -\ background.png);
-    height: 100vh;
-    width: 100%;
+.contact-us {
+  background-image: url(./img/contact-us/Kochwelt\ -\ Contact\ us\ -\ background.png);
+  height: 100vh;
+  width: 100%;
 }
-.grandparents{
-    border: black;
-    border-width: 5px;
-    border: 5px;
-    border-bottom: #EFEFEF;
+.grandparents {
+  border: black;
+  border-width: 5px;
+  border: 5px;
+  border-bottom: #efefef;
 }
-.grandma{
-    display:flex;
-    height: 320px;
-    width: 160px;
+.grandma {
+  display: flex;
+  height: 320px;
+  width: 160px;
 }
-.grandpa{
-    display:flex;
-    height: 320px;
-    width: 160px;
+.grandpa {
+  display: flex;
+  height: 320px;
+  width: 160px;
 }
-
 
 /* @Media */
+
+@media (max-width: 994px) {
+  main {
+    margin-top: 60px;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .padding-left-right {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .header_banner {
+    width: 200px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .recipe-img {
+    height: 150px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+
+  .badge-list {
+    gap: 20px;
+  }
+
+  .badge {
+    gap: 8px;
+    font-size: 14px;
+    padding: 4px 12px;
+  }
+
+  .badge-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  hr {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+
+  .servings {
+    span {
+      font-size: 14px;
+      margin-right: 12px;
+    }
+
+    input {
+      width: 80px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 14px;
+    }
+
+    button {
+      font-size: 14px;
+      padding-top: 8px;
+      padding-right: 36px;
+      padding-bottom: 8px;
+      padding-left: 36px;
+    }
+  }
+
+  td {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+
+  tr:nth-child(odd) {
+    background-color: rgb(239 239 239);
+  }
+
+  /* instructions */
+
+  .instructions {
+    .badge-list {
+      margin-top: 18px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      margin-top: 30px;
+      font-size: 12px;
+    }
+  }
+
+  /* made from */
+
+  .made-from {
+    margin-top: 28px;
+    margin-bottom: 40px;
+
+    figure {
+      gap: 16px;
+      font-size: 18px;
+    }
+
+    img {
+      height: 56px;
+    }
+  }
+
+  footer {
+    margin-top: 20px;
+    height: 280px;
+  }
+}
