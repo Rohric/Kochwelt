@@ -1,0 +1,38 @@
+/* body {
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.big {
+  background-color: aqua;
+  width: 80%;
+  height: 100px;
+}
+
+.small {
+  background-color: blue; 
+  height: 50px;
+  width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 400px;
+    min-height: 100vh;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-test {
+    display: flex;
+    flex: 1;
+    background-color: burlywood;
+}
+
+.footer-item {
+    background-color: blueviolet;
+}

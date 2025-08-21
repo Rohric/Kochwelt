@@ -19,6 +19,12 @@ h3 {
   margin: 0;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .shadow-line {
   box-shadow: 0px 4px 2px rgb(0 0 0 / 0.1);
 }
@@ -39,7 +45,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight:footer 500;
 }
 
 .padding-left-right {
@@ -52,12 +58,13 @@ h3 {
   margin: 0 auto;
 }
 
-
 button:hover {
   cursor: pointer;
 }
 
 .format-text {
+  display: flex;
+  flex-direction: column;
   font-family: "Raleway", Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.7;
@@ -215,6 +222,13 @@ li {
 }
 
 /* Wiederverwendbar */
+
+
+
+.flex-grow {
+  display: flex;
+  flex: 1;
+}
 
 .transform {
   border: none;
