@@ -8,6 +8,12 @@ h3 {
 
 /* Global */
 
+@font-face {
+  font-family: 'Raleway';
+  src: url('./Raleway/Raleway-VariableFont_wght.ttf') format('woff2'),
+    url('./Raleway/Raleway-Italic-VariableFont_wght.ttf') format('woff');
+}
+
 * {
   font-family: "Raleway";
   margin: 0;
@@ -261,9 +267,9 @@ li {
     justify-content: space-between;
     gap: 24px;
 
-    p{
-    padding: 0;
-    margin: 0;
+    p {
+      padding: 0;
+      margin: 0;
     }
   }
 
@@ -785,4 +791,5 @@ tr:nth-child(odd) {
     grid-template-columns: 1fr 2fr 1fr;
   }
 }
+
 /* Index XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
