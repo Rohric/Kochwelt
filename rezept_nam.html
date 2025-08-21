@@ -1,238 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     /> -->
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-    <link rel="icon" type="image/png" href="./img/logo_small.png" />
-    <title>Spinat Nudelauflauf</title>
-  </head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <link rel="icon" type="image/png" href="./img/logo_small.png" />
+  <title>Spinat Nudelauflauf</title>
+</head>
 
-  <body>
-    <!-- Header -->
-    <div class="shadow-line">
-      <div class="widescreen">
-          <header class="padding-left-right">
-              <nav>
-                  <div class="nav-left">
-                      <a href="index.html">
-                          <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo" />
-                      </a>
-                  </div>
-                  <div class="nav-right">
-                      <button popovertarget="menu">
-                          <img src="./img/icons/hamburger-menu.svg" alt="Burger Menu" />
-                      </button>
-
-                      <div class="burger-menu" popover role="menu" id="menu">
-                          <button popovertarget="menu" popovertargetaction="hide">
-                              <img class="menu-cross" src="./img/icons/cross.svg" alt="Cross" />
-                          </button>
-
-                          <ul class="menu">
-                              <li>
-                                  <a class="header_li_a" href="index.html">Start</a>
-                              </li>
-                              <li>
-                                  <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
-                              </li>
-                              <li>
-                                  <a class="header_li_a" href="contactform.html"
-                                      onclick="popupWindow(); return false;">Kontakt</a>
-                              </li>
-                              <li>
-                                  <a class="header_li_a" href="impressum.html" target="_blank"
-                                      rel="noopener noreferrer">Impressum</a>
-                              </li>
-                          </ul>
-                      </div>
-
-                      <ul class="wide-menu">
-                          <li>
-                              <a class="header_li_a" href="index.html">Start</a>
-                          </li>
-                          <li>
-                              <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
-                          </li>
-                          <li>
-                              <a class="header_li_a" href="contactform.html"
-                                  onclick="popupWindow(); return false;">Kontakt</a>
-                          </li>
-                          <li>
-                              <a class="header_li_a" href="impressum.html" target="_blank"
-                                  rel="noopener noreferrer">Impressum</a>
-                          </li>
-                      </ul>
-                  </div>
-              </nav>
-          </header>
-      </div>
-    </div>
-    <!-- head Article -->
+<body>
+  <!-- Header -->
+  <div class="shadow-line">
     <div class="widescreen">
-      <main class="padding-left-right">
-        <article>
-          <section>
-            <h1>Spinat Nudelauflauf</h1>
-            <img
-              class="recipe-img"
-              src="./img/spinat-nudelauflauf.jpg"
-              alt="spinat nudelauflauf"
-            />
-            <div class="badge-list">
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/clock-regular.svg"
-                  alt="clock"
-                />
-                <span>20 min</span>
-              </div>
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/brain-solid.svg"
-                  alt="brain"
-                />
-                <span>simpel</span>
-              </div>
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/calendar-alt-regular.svg"
-                  alt="calender"
-                />
-                <span>18.08.2025</span>
-              </div>
-            </div>
-          </section>
+      <header class="padding-left-right">
+        <nav>
+          <div class="nav-left">
+            <a href="index.html">
+              <img class="header_banner" src="./img/logo.png" alt="Kochwelt logo" />
+            </a>
+          </div>
+          <div class="nav-right">
+            <button popovertarget="menu">
+              <img src="./img/icons/hamburger-menu.svg" alt="Burger Menu" />
+            </button>
 
-          <!-- section Ingriedients -->
-          <hr/>
+            <div class="burger-menu" popover role="menu" id="menu">
+              <button popovertarget="menu" popovertargetaction="hide">
+                <img class="menu-cross" src="./img/icons/cross.svg" alt="Cross" />
+              </button>
 
-          <section>
-            <div class="servings">
-              <span>Zutaten für </span>
-              <input type="number" id="Portionen" value="4" min="1" max="10" />
-              <button class="button-green">Portionen</button>
+              <ul class="menu">
+                <li>
+                  <a class="header_li_a" href="index.html">Start</a>
+                </li>
+                <li>
+                  <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
+                </li>
+                <li>
+                  <a class="header_li_a" href="contactform.html" onclick="popupWindow(); return false;">Kontakt</a>
+                </li>
+                <li>
+                  <a class="header_li_a" href="impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a>
+                </li>
+              </ul>
             </div>
 
-            <table>
-              <tr>
-                <td>250g Nudeln</td>
-              </tr>
-              <tr>
-                <td>500g Hackfleisch</td>
-              </tr>
-              <tr>
-                <td>450g Rahmspinat</td>
-              </tr>
-              <tr>
-                <td>2 Zwibeln</td>
-              </tr>
-              <tr>
-                <td>1 Knoblauchzehen</td>
-              </tr>
-              <tr>
-                <td>1 Gemüsebrühwürfel</td>
-              </tr>
-              <tr>
-                <td>100ml Sahne</td>
-              </tr>
-              <tr>
-                <td>Salz und Pfeffer</td>
-              </tr>
-            </table>
-          </section>
-          <!-- instructions -->
-          <section class="instructions">
-            <h2>Zubereitung</h2>
-            <div class="badge-list">
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/clock-regular.svg"
-                  alt="benötigte Zeit"
-                />
-                <span>ca. 20 Minuten</span>
-              </div>
-              <div class="badge">
-                <img
-                  class="badge-icon"
-                  src="./img/icons/clock-regular.svg"
-                  alt="Gesamtzeit"
-                />
-                <span>Gesamtzeit ca. 20 Minuten</span>
-              </div>
-            </div>
-            <p>
-              Braten Sie das Hackfleisch an, danach geben sie die Zwiebeln und
-              die Knoblauchzehe dazu und würzen mit Salz und Pfeffer.
-              Überstreuen sie die Masse mit einem kleingebröselten Brühwürfel.
-              Das Ganze dann durchbraten. In der Zwischenzeit die Nudeln kochen.
-              Sobald die Hackfleischmasse durchgebraten ist, verteilen Sie den
-              noch gefrorenen Spinat darauf und lassen ihn bei geringer
-              Wärmezufuhr auftauen. Wenn der Spinat aufgetaut ist, vermischen
-              Sie alles mit etwas Milch und den Nudeln, geben es in eine
-              Auflaufform, gießen die Sahne darüber, bestreuen den Auflauf mit
-              Käse und überbacken ihn 10 Minuten bei 180°C.
-            </p>
-          </section>
-
-          <!-- made from -->
-          <section class="made-from">
-            <h3>Rezept erstellt von</h3>
-            <figure>
-              <img src="./img/pic_nam.png" alt="Creator" />
-              <figcaption>Nam</figcaption>
-            </figure>
-          </section>
-        </article>
-      </main>
+            <ul class="wide-menu">
+              <li>
+                <a class="header_li_a" href="index.html">Start</a>
+              </li>
+              <li>
+                <a class="header_li_a" href="rezept_des-tages.html">Rezept des Tages</a>
+              </li>
+              <li>
+                <a class="header_li_a" href="contactform.html" onclick="popupWindow(); return false;">Kontakt</a>
+              </li>
+              <li>
+                <a class="header_li_a" href="impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     </div>
-
-    <div class="background-color">
-      <div class="widescreen">
-          <footer class="padding-left-right">
-
-              <div class="footer-logo">
-                  <span class="footer-logo-text">Kochwelt</span>
-              </div>
-
-              <div class="footer-end">
-                  <div class="footer-end-left">
-                      <a class="transform" href="rezept_emil.html"><img src="./img/pic_emil.png" alt="Emil Rezept"></a>
-                      <a class="transform" href="rezept_nam.html"><img src="./img/pic_nam.png" alt="Nam Rezept"></a>
-                      <a class="transform" href="rezept_christian.html"><img src="./img/pic_christian.png"
-                              alt="Christian Rezept"></a>
-                      <a class="transform" href="https://www.instagram.com/roccodelschlacko/?hl=en" target="_blank"
-                          rel="noopener noreferrer">Insta</a>
-                      <a class="transform"
-                          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
-                          target="_blank" rel="noopener noreferrer">Youtube</a>
-                  </div>
-                  <div class="footer-end-right">
-                      <a class="transform" href="impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a>
-                      <a class="transform" href="datenschutz.html" target="_blank"
-                          rel="noopener noreferrer">Datenschutz</a>
-                      <a class="transform"
-                          href="https://developerakademie.com/?utm_term=developer%20akademie&utm_campaign=S2%20Search%20Brand%20%232&utm_source=adwords&utm_medium=ppc&hsa_acc=3199679202&hsa_cam=20207938697&hsa_grp=159989510365&hsa_ad=697748504391&hsa_src=g&hsa_tgt=kwd-1135526810540&hsa_kw=developer%20akademie&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20207938697&gbraid=0AAAAADgFy8NIry_CwFYGk-VpcO7mvjPwi&gclid=Cj0KCQjw5JXFBhCrARIsAL1ckPuCznl01R9iZnO8p86WYtHH7Z_ATq_VR6KChS7krXq5dH_fvEhKZ4YaAudLEALw_wcB"
-                          target="_blank" rel="noopener noreferrer">
-                          Developer Akademie
-                      </a>
-
-                  </div>
-              </div>
-
-          </footer>
-      </div>
   </div>
-  </body>
+  <!-- head Article -->
+  <div class="widescreen">
+    <main class="padding-left-right">
+      <article>
+        <section>
+          <h1>Spinat Nudelauflauf</h1>
+          <img class="recipe-img" src="./img/spinat-nudelauflauf.jpg" alt="spinat nudelauflauf" />
+          <div class="badge-list">
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="clock" />
+              <span>20 min</span>
+            </div>
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/brain-solid.svg" alt="brain" />
+              <span>simpel</span>
+            </div>
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/calendar-alt-regular.svg" alt="calender" />
+              <span>18.08.2025</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- section Ingriedients -->
+        <hr />
+
+        <section>
+          <div class="servings">
+            <span>Zutaten für </span>
+            <input type="number" id="Portionen" value="4" min="1" max="10" />
+            <button class="button-green">Portionen</button>
+          </div>
+
+          <table>
+            <tr>
+              <td>250g Nudeln</td>
+            </tr>
+            <tr>
+              <td>500g Hackfleisch</td>
+            </tr>
+            <tr>
+              <td>450g Rahmspinat</td>
+            </tr>
+            <tr>
+              <td>2 Zwibeln</td>
+            </tr>
+            <tr>
+              <td>1 Knoblauchzehen</td>
+            </tr>
+            <tr>
+              <td>1 Gemüsebrühwürfel</td>
+            </tr>
+            <tr>
+              <td>100ml Sahne</td>
+            </tr>
+            <tr>
+              <td>Salz und Pfeffer</td>
+            </tr>
+          </table>
+        </section>
+        <!-- instructions -->
+        <section class="instructions">
+          <h2>Zubereitung</h2>
+          <div class="badge-list">
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="benötigte Zeit" />
+              <span>ca. 20 Minuten</span>
+            </div>
+            <div class="badge">
+              <img class="badge-icon" src="./img/icons/clock-regular.svg" alt="Gesamtzeit" />
+              <span>Gesamtzeit ca. 20 Minuten</span>
+            </div>
+          </div>
+          <p>
+            Braten Sie das Hackfleisch an, danach geben sie die Zwiebeln und
+            die Knoblauchzehe dazu und würzen mit Salz und Pfeffer.
+            Überstreuen sie die Masse mit einem kleingebröselten Brühwürfel.
+            Das Ganze dann durchbraten. In der Zwischenzeit die Nudeln kochen.
+            Sobald die Hackfleischmasse durchgebraten ist, verteilen Sie den
+            noch gefrorenen Spinat darauf und lassen ihn bei geringer
+            Wärmezufuhr auftauen. Wenn der Spinat aufgetaut ist, vermischen
+            Sie alles mit etwas Milch und den Nudeln, geben es in eine
+            Auflaufform, gießen die Sahne darüber, bestreuen den Auflauf mit
+            Käse und überbacken ihn 10 Minuten bei 180°C.
+          </p>
+        </section>
+
+        <!-- made from -->
+        <section class="made-from">
+          <h3>Rezept erstellt von</h3>
+          <figure>
+            <img src="./img/pic_nam.png" alt="Creator" />
+            <figcaption>Nam</figcaption>
+          </figure>
+        </section>
+      </article>
+    </main>
+  </div>
+
+  <div class="background-color">
+    <div class="widescreen">
+      <footer class="padding-left-right">
+
+        <div class="footer-logo">
+          <span class="footer-logo-text">Kochwelt</span>
+        </div>
+
+        <div class="footer-end">
+          <div class="footer-end-left">
+            <a class="transform" href="rezept_emil.html"><img src="./img/pic_emil.png" alt="Emil Rezept"></a>
+            <a class="transform" href="rezept_nam.html"><img src="./img/pic_nam.png" alt="Nam Rezept"></a>
+            <a class="transform" href="rezept_christian.html"><img src="./img/pic_christian.png"
+                alt="Christian Rezept"></a>
+            <a class="transform" href="https://www.instagram.com/developer.akademie/?hl=en" target="_blank"
+              rel="noopener noreferrer">Insta</a>
+            <a class="transform" href="https://www.youtube.com/@developer.akademie" target="_blank"
+              rel="noopener noreferrer">Youtube</a>
+          </div>
+          <div class="footer-end-right">
+            <a class="transform" href="impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a>
+            <a class="transform" href="datenschutz.html" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+            <a class="transform"
+              href="https://developerakademie.com/?utm_term=developer%20akademie&utm_campaign=S2%20Search%20Brand%20%232&utm_source=adwords&utm_medium=ppc&hsa_acc=3199679202&hsa_cam=20207938697&hsa_grp=159989510365&hsa_ad=697748504391&hsa_src=g&hsa_tgt=kwd-1135526810540&hsa_kw=developer%20akademie&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20207938697&gbraid=0AAAAADgFy8NIry_CwFYGk-VpcO7mvjPwi&gclid=Cj0KCQjw5JXFBhCrARIsAL1ckPuCznl01R9iZnO8p86WYtHH7Z_ATq_VR6KChS7krXq5dH_fvEhKZ4YaAudLEALw_wcB"
+              target="_blank" rel="noopener noreferrer">
+              Developer Akademie
+            </a>
+
+          </div>
+        </div>
+
+      </footer>
+    </div>
+  </div>
+</body>
+
 </html>
