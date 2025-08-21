@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="contactform_style.css">
-    <link rel="icon" type="image/png" href="./img/logo_small.png">
+    <link rel="stylesheet" href="contactform_style.css" />
+    <link rel="icon" type="image/png" href="./img/logo_small.png" />
     <script src="script.js"></script>
-</head>
-<body>
-    <div><img src="./img/logo.png" alt="Kochwelt-logo"></div>
+  </head>
+  <body>
+    <div><img src="./img/logo.png" alt="Kochwelt-logo" /></div>
     <div class="contact-form">
-    <h2>Kontakt</h2>
-    <form onsubmit="sendMail(event)" method="post">
-      <div class="form-group">
-        <label for="name">Name *</label>
-        <input type="text" id="name" name="name" required>
-      </div>
+      <h2>Kontakt</h2>
+      <form onsubmit="sendMail(event)" method="post">
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required />
+        </div>
 
-      <div class="form-group">
-        <label for="email">E-Mail *</label>
-        <input type="email" id="email" name="email" required>
-      </div>
+        <div class="form-group">
+          <label for="email">E-Mail *</label>
+          <input type="email" id="email" name="email" required />
+        </div>
 
-      <div class="form-group">
-        <label for="message">Nachricht *</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
+        <div class="form-group">
+          <label for="message">Nachricht *</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
 
-      <button type="submit" class="submit-btn">Absenden</button>
-    </form>
+        <button type="submit" class="submit-btn">Absenden</button>
+      </form>
 
-    <a href="index.html" class="back-link" onclick="window.close(); return false;">Zurück zur Startseite</a>
-  </div>
-</body>
-
+      <a
+        href="index.html"
+        class="back-link"
+        onclick="window.close(); return false;"
+        >Zurück zur Startseite</a
+      >
+    </div>
+  </body>
 </html>
