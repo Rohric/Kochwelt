@@ -52,68 +52,74 @@ h3 {
   margin: 0 auto;
 }
 
-    .format-text {
-      font-family: "Raleway", Arial, sans-serif;
-      font-size: 1rem;
-      line-height: 1.7;
-      color: #1a1a1a;
-      background: #ffffff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      max-width: 75ch; /* verhindert zu breite Zeilen */
-      margin: 2rem auto;
-    }
 
-    .format-text h1 {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
-      color: #0d0d0d;
-    }
+button:hover {
+  cursor: pointer;
+}
 
-    .format-text h2 {
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin: 2rem 0 1rem;
-      color: #222;
-    }
+.format-text {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #1a1a1a;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 75ch;
+  /* verhindert zu breite Zeilen */
+  margin: 2rem auto;
+}
 
-    .format-text h3 {
-      font-size: 1.25rem;
-      font-weight: 600;
-      margin: 1.5rem 0 0.75rem;
-      color: #333;
-    }
+.format-text h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0d0d0d;
+}
 
-    .format-text h4 {
-      font-size: 1.1rem;
-      font-weight: 500;
-      margin: 1rem 0 0.5rem;
-      color: #444;
-    }
+.format-text h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  color: #222;
+}
 
-    .format-text p {
-      margin-bottom: 1em;
-    }
+.format-text h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  color: #333;
+}
 
-    .format-text ul {
-      margin: 1em 0 1em 1.5em;
-      padding: 0;
-    }
+.format-text h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 1rem 0 0.5rem;
+  color: #444;
+}
 
-    .format-text li {
-      margin-bottom: 0.5em;
-    }
+.format-text p {
+  margin-bottom: 1em;
+}
 
-    .format-text a {
-      color: #0066cc;
-      text-decoration: none;
-    }
+.format-text ul {
+  margin: 1em 0 1em 1.5em;
+  padding: 0;
+}
 
-    .format-text a:hover {
-      text-decoration: underline;
-    }
+.format-text li {
+  margin-bottom: 0.5em;
+}
+
+.format-text a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.format-text a:hover {
+  text-decoration: underline;
+}
 
 /* Navigation */
 
