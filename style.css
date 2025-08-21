@@ -225,11 +225,18 @@ li {
   transform: scale(1.2);
 }
 
+.background-color{
+  background-color: #efefef;
+}
+
 /* Index.html*/
 
 .header_banner {
   width: 300px;
 }
+
+
+
 
 /* Französisches Croissants */
 
@@ -274,7 +281,7 @@ li {
 /* section new_arrivals */
 .new-arrivals {
   margin-top: 120px;
-  background-color: #efefef;
+  /* background-color: #efefef; */
   text-align: center;
 
   h2 {
@@ -803,7 +810,7 @@ tr:nth-child(odd) {
 
     p {
       margin-top: 30px;
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
