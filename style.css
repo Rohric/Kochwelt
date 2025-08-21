@@ -342,6 +342,8 @@ li {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
+    padding: 50px 0px;
+
 
     p {
       padding: 0;
