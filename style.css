@@ -257,7 +257,8 @@ li {
 .topmenu {
   display: flex;
   justify-content: center;
-  margin-top: 64px;
+  /* margin-top: 64px; */
+  padding: 40px 0;
 }
 
 .topmenu-img {
@@ -294,7 +295,6 @@ li {
 
 /* section new_arrivals */
 .new-arrivals {
-  margin-top: 120px;
   /* background-color: #efefef; */
   text-align: center;
 
@@ -356,7 +356,7 @@ li {
     align-items: center;
     justify-content: space-between;
     gap: 24px;
-    padding: 50px 0px;
+    padding-bottom: 40px;
 
 
     p {
